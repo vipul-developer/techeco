@@ -4,6 +4,7 @@ import { menuList } from '../../Misc/MenuList';
 import { Box,AppBar,Toolbar,IconButton,Typography,Menu,MenuItem,Container,Button } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import Logo from "../../Resources/Images/techeco-logo.svg";
+import PhoneIcon from '@mui/icons-material/Phone';
 const Navigation = () => {
     const [anchorElNav, setAnchorElNav] = useState(null);
     const handleOpenNavMenu = (event) => {
@@ -19,8 +20,8 @@ const Navigation = () => {
                 menuTemplate = list.map((item,index) => (
                     item.public ? 
                         item.isActive ? 
-                        <NavLink exact to={item.linkTo} activeStyle={{color:item.name === "Take Action" ? "#fff":"#33bc82"}} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:item.name === "Take Action" ? "#fff":"#000"}} key={item.id}>
-                            <Button onClick={handleCloseNavMenu} sx={{borderRadius:item.name === "Take Action" ? "6px":"inherit",textTransform:"capitalize",backgroundColor:item.name === "Take Action" ? "#33bc82":"inherit","&:hover":{backgroundColor:item.name === "Take Action" ? "#33bc82":"inherit",color:item.name === "Take Action" ? "inherit":"#33bc82"},ml:item.name === "Take Action" ? 1 : 0}} variant={item.name === "Take Action" ? "contained":null} disableElevation>
+                        <NavLink exact to={item.linkTo} activeStyle={{color:item.name === "1800-889-3121" ? "#fff":"#33bc82"}} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:item.name === "1800-889-3121" ? "#fff":"#000"}} key={item.id}>
+                            <Button onClick={handleCloseNavMenu} sx={{borderRadius:item.name === "1800-889-3121" ? "33px":"inherit",textTransform:"capitalize",backgroundColor:item.name === "1800-889-3121" ? "#33bc82":"inherit","&:hover":{backgroundColor:item.name === "1800-889-3121" ? "#33bc82":"inherit",color:item.name === "1800-889-3121" ? "inherit":"#33bc82"},ml:item.name === "1800-889-3121" ? 1 : 0}} variant={item.name === "1800-889-3121" ? "contained":null} disableElevation startIcon={item.name === "1800-889-3121" ? <PhoneIcon/> : null}>
                                 {item.name}
                             </Button>
                         </NavLink>
@@ -34,8 +35,8 @@ const Navigation = () => {
                 menuTemplate = list.map((item,index) => (
                     item.public ?
                         item.isActive ?
-                        <NavLink exact to={item.linkTo} activeStyle={{color:item.name === "Take Action" ? "#fff":"#33bc82"}} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:item.name === "Take Action" ? "#fff":"#000"}} key={item.id}>
-                            <MenuItem onClick={handleCloseNavMenu} sx={{borderRadius:item.name === "Take Action" ? "6px":"inherit",backgroundColor:item.name === "Take Action" ? "#33bc82":"inherit","&:hover":{backgroundColor:item.name === "Take Action" ? "#33bc82":"inherit",color:item.name === "Take Action" ? "inherit":"#33bc82"},}} variant={item.name === "Take Action" ? "contained":null}>
+                        <NavLink exact to={item.linkTo} activeStyle={{color:item.name === "1800-889-3121" ? "#fff":"#33bc82"}} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:item.name === "1800-889-3121" ? "#fff":"#000"}} key={item.id}>
+                            <MenuItem onClick={handleCloseNavMenu} sx={{borderRadius:item.name === "1800-889-3121" ? "6px":"inherit",backgroundColor:item.name === "1800-889-3121" ? "#33bc82":"inherit","&:hover":{backgroundColor:item.name === "1800-889-3121" ? "#33bc82":"inherit",color:item.name === "1800-889-3121" ? "inherit":"#33bc82"},}} variant={item.name === "1800-889-3121" ? "contained":null}>
                                 <Typography textAlign="center">{item.name}</Typography>
                             </MenuItem>
                         </NavLink>
@@ -56,15 +57,17 @@ const Navigation = () => {
             <AppBar position="fixed" sx={{backgroundColor:"#FFF",height:{md:"97px"},boxShadow:"none"}}>
                 <Container fixed sx={{pt:{md:2}}}>
                     <Toolbar disableGutters>
-                        <Typography
-                            variant="h6"
-                            noWrap
-                            component="div"
-                            color="#000"
-                            sx={{flexGrow:1}}
-                        >
-                            <img src={Logo} alt="Logo" className="img-fluid"/>
-                        </Typography>
+                        <NavLink exact to={"/"} style={{flexGrow:1}}>
+                            <Typography
+                                variant="h6"
+                                noWrap
+                                component="div"
+                                color="#000"
+                                sx={{flexGrow:1}}
+                            >
+                                <img src={Logo} alt="Logo" className="img-fluid"/>
+                            </Typography>
+                        </NavLink>
                         <Box sx={{display: { xs:'none',md:'flex'} }}>
                             {renderMenu(menuList,"primary")}
                         </Box>

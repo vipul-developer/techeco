@@ -29,7 +29,7 @@ export const menuList = [
     },
     {
         "id":"techeco_2022_005",
-        "name":"EPR For E-Waste",
+        "name":"EPR",
         "linkTo":"/tecteco/epr_for_e-waste",
         "public":true,
         "isActive":true,
@@ -50,7 +50,7 @@ export const menuList = [
     },
     {
         "id":"techeco_2022_008",
-        "name":"Take Action",
+        "name":"1800-889-3121",
         "linkTo":"/tecteco/take_action",
         "public":true,
         "isActive":true,
