@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/techecolive/static/css/main.0ed46e7e.css",
-    "main.js": "/techecolive/static/js/main.7202c8e4.js",
-    "static/js/787.14361af5.chunk.js": "/techecolive/static/js/787.14361af5.chunk.js",
-    "static/media/john-cameron.jpg": "/techecolive/static/media/john-cameron.3e02c21dd900359b9fb7.jpg",
-    "static/media/TestSimpleProcess.jpg": "/techecolive/static/media/TestSimpleProcess.cc2b8becd58506722903.jpg",
-    "index.html": "/techecolive/index.html",
-    "main.0ed46e7e.css.map": "/techecolive/static/css/main.0ed46e7e.css.map",
-    "main.7202c8e4.js.map": "/techecolive/static/js/main.7202c8e4.js.map",
-    "787.14361af5.chunk.js.map": "/techecolive/static/js/787.14361af5.chunk.js.map"
+    "main.css": "/techeco/static/css/main.0ed46e7e.css",
+    "main.js": "/techeco/static/js/main.394e519a.js",
+    "static/js/787.14361af5.chunk.js": "/techeco/static/js/787.14361af5.chunk.js",
+    "static/media/john-cameron.jpg": "/techeco/static/media/john-cameron.3e02c21dd900359b9fb7.jpg",
+    "static/media/TestSimpleProcess.jpg": "/techeco/static/media/TestSimpleProcess.cc2b8becd58506722903.jpg",
+    "index.html": "/techeco/index.html",
+    "main.0ed46e7e.css.map": "/techeco/static/css/main.0ed46e7e.css.map",
+    "main.394e519a.js.map": "/techeco/static/js/main.394e519a.js.map",
+    "787.14361af5.chunk.js.map": "/techeco/static/js/787.14361af5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ed46e7e.css",
-    "static/js/main.7202c8e4.js"
+    "static/js/main.394e519a.js"
   ]
 }
