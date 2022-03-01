@@ -2,6 +2,9 @@ import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Box,Typography,Container,Grid,Card,ButtonBase,CardContent,CardHeader } from "@mui/material";
 import FolderIcon from '@mui/icons-material/Folder';
+import AutorenewIcon from '@mui/icons-material/Autorenew';
+import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
+import EngineeringIcon from '@mui/icons-material/Engineering';
 const OurService = () => {
     return (
         <>
@@ -19,7 +22,7 @@ const OurService = () => {
                 <Container fixed>
                     <Grid container item xl={12} lg={12} md={12} sm={12} xs={12} spacing={4}>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                            <Card sx={{backgroundColor:"#effaf5",p:2}}>
+                            <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
                                     avatar={<FolderIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
                                     title="E-Waste"
@@ -34,10 +37,10 @@ const OurService = () => {
                             </Card>
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                            <Card sx={{backgroundColor:"#effaf5",p:2}}>
+                            <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<FolderIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
-                                    title="E-Waste"
+                                    avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    title="Battery Waste"
                                     subheader="On scheduling your e-waste pickup through our call centre, we will ensure a timely pick up from your site to our R2 certified recycling plant to ensure a complete end to life."
                                     sx={{
                                         '& .MuiCardHeader-avatar':{backgroundColor:"#FFF",width:"75px",height:"75px",position:"relative",top:"-23px"},
@@ -49,10 +52,10 @@ const OurService = () => {
                             </Card>
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                            <Card sx={{backgroundColor:"#effaf5",p:2}}>
+                            <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<FolderIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
-                                    title="E-Waste"
+                                    avatar={<PhoneIphoneIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    title="Plastic Waste"
                                     subheader="On scheduling your e-waste pickup through our call centre, we will ensure a timely pick up from your site to our R2 certified recycling plant to ensure a complete end to life."
                                     sx={{
                                         '& .MuiCardHeader-avatar':{backgroundColor:"#FFF",width:"75px",height:"75px",position:"relative",top:"-23px"},
@@ -64,10 +67,10 @@ const OurService = () => {
                             </Card>
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                            <Card sx={{backgroundColor:"#effaf5",p:2}}>
+                            <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<FolderIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
-                                    title="E-Waste"
+                                    avatar={<EngineeringIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    title="Automobile Waste"
                                     subheader="On scheduling your e-waste pickup through our call centre, we will ensure a timely pick up from your site to our R2 certified recycling plant to ensure a complete end to life."
                                     sx={{
                                         '& .MuiCardHeader-avatar':{backgroundColor:"#FFF",width:"75px",height:"75px",position:"relative",top:"-23px"},
@@ -79,10 +82,10 @@ const OurService = () => {
                             </Card>
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                            <Card sx={{backgroundColor:"#effaf5",p:2}}>
+                            <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<FolderIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
-                                    title="E-Waste"
+                                    avatar={<PhoneIphoneIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    title="Glass Waste"
                                     subheader="On scheduling your e-waste pickup through our call centre, we will ensure a timely pick up from your site to our R2 certified recycling plant to ensure a complete end to life."
                                     sx={{
                                         '& .MuiCardHeader-avatar':{backgroundColor:"#FFF",width:"75px",height:"75px",position:"relative",top:"-23px"},
@@ -94,10 +97,10 @@ const OurService = () => {
                             </Card>
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                            <Card sx={{backgroundColor:"#effaf5",p:2}}>
+                            <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<FolderIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
-                                    title="E-Waste"
+                                    avatar={<EngineeringIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    title="Rubber Waste"
                                     subheader="On scheduling your e-waste pickup through our call centre, we will ensure a timely pick up from your site to our R2 certified recycling plant to ensure a complete end to life."
                                     sx={{
                                         '& .MuiCardHeader-avatar':{backgroundColor:"#FFF",width:"75px",height:"75px",position:"relative",top:"-23px"},

@@ -1,9 +1,10 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Box,Typography,Container,Grid } from "@mui/material";
+import techEco from "../../Resources/Images/techeco-ff.png"
 const HeroImage = () => {
     return (
-        <Box sx={{maxHeight:"591px",margin:{md:"97px 0 0"},backgroundColor:"#499960"}}>
+        <Box sx={{maxHeight:"591px",margin:{md:"97px 0 0"},paddingBottom:"49px",backgroundColor:"#499960",backgroundImage:`url(${techEco})`,backgroundPosition:"right",backgroundRepeat:"no-repeat"}}>
            <Container fixed>
                 <Grid container>
                     <Grid container item xl={12} lg={12} md={12} sm={12} xs={12}>

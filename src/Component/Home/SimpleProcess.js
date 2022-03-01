@@ -1,8 +1,8 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Box,Typography,Container,Grid,Card,ButtonBase,CardContent,CardHeader } from "@mui/material";
-import testImage from "../../Resources/Images/TestSimpleProcess.jpg";
-import DeliveryDiningIcon from '@mui/icons-material/DeliveryDining';
+import { Box,Typography,Container,Grid,Button } from "@mui/material";
+import testImage from "../../Resources/Images/techeco-process-1.png";
+import PhoneIcon from '@mui/icons-material/Phone';
 const SimpleProcess = () => {
     return (
         <>
@@ -22,8 +22,17 @@ const SimpleProcess = () => {
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{margin:"59.2px 0 53.1px 0",backgroundImage:`url(${testImage})`,height:555,backgroundSize:"cover",backgroundRepeat:"no-repeat",borderRadius:1,backgroundColor:"rbga(60,60,60,0.7)",display:"flex",justifyContent:"center",alignItems:"center",flexDirection:"column",textAlign:"center"}}>
-                            <DeliveryDiningIcon sx={{fontSize:"65px",color:"#FFF",mt:5}}/>
-                            <Typography variant="body" component="p" gutterBottom sx={{fontSize:"48px",fontWeight:600,lineHeight:0.94,color:"#fff",fontFamily:"Montserrat"}}>Schedule Pickup for location</Typography>
+                            {/* <DeliveryDiningIcon sx={{fontSize:"65px",color:"#FFF",mt:5}}/>
+                            <Typography variant="body" component="p" gutterBottom sx={{fontSize:"48px",fontWeight:600,lineHeight:0.94,color:"#fff",fontFamily:"Montserrat"}}>Schedule Pickup for location</Typography> */}
+                        </Box>
+                    </Container>
+                </Grid>
+                <Grid item xs={12}>
+                    <Container fixed>
+                        <Box sx={{pt:3,textAlign:"center"}}>
+                            <Typography variant="body" component="p" gutterBottom sx={{fontSize:"48px",fontWeight:600,lineHeight:0.94,color:"#0e5156",fontFamily:"Montserrat"}}>Schedule your pickup</Typography>
+                            <Typography variant="body" component="p" gutterBottom sx={{fontSize:"20px",fontWeight:600,lineHeight:2.25,color:"#0e5156",fontFamily:"Montserrat"}}>Call us on our toll free number</Typography>
+                            <Button variant='contained' disableElevation startIcon={<PhoneIcon size="large"/>} size="large" sx={{fontFamily:"Montserrat",fontSize:"36px",fontWeight:"bold",lineHeight:0.72,padding:"23px 31px 19px 35px",backgroundColor:"#33bc82",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82"},}}>1800-0000-000</Button>
                         </Box>
                     </Container>
                 </Grid>

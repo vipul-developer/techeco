@@ -3,6 +3,7 @@ import { withRouter,NavLink } from 'react-router-dom';
 import { menuList } from '../../Misc/MenuList';
 import { Box,AppBar,Toolbar,IconButton,Typography,Menu,MenuItem,Container,Button } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
+import Logo from "../../Resources/Images/techeco-logo.svg";
 const Navigation = () => {
     const [anchorElNav, setAnchorElNav] = useState(null);
     const handleOpenNavMenu = (event) => {
@@ -62,7 +63,7 @@ const Navigation = () => {
                             color="#000"
                             sx={{flexGrow:1}}
                         >
-                            LOGO
+                            <img src={Logo} alt="Logo" className="img-fluid"/>
                         </Typography>
                         <Box sx={{display: { xs:'none',md:'flex'} }}>
                             {renderMenu(menuList,"primary")}
