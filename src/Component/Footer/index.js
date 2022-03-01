@@ -28,10 +28,10 @@ const Footer = () => {
                     <Grid container item xl={12} lg={12} md={12} sm={12} xs={12}>
                         <Grid item xl={5} lg={5} md={5} sm={5} xs={12}>
                             <Box sx={{margin:{md:"63.7px 0 0 0"},ml:{md:1}}}>
-                                <Typography variant='body1' component="p" gutterBottom sx={{ml:1,fontSize:{md:"20px"},fontFamily:"Montserrat",lineHeight:2.14,color:"#FFF",fontWeight:"bold"}}>Techeco Waste Management LLP</Typography>
-                                <Typography variant='body1' component="p" gutterBottom sx={{ml:1,fontSize:"16px",fontFamily:"Montserrat",lineHeight:2.14,color:"#FFF",fontWeight:"bold",mt:"53px"}}>Corporate Office</Typography>
+                                <Typography variant='body1' component="p" gutterBottom sx={{ml:1,mt:2,fontSize:{md:"20px"},fontFamily:"Montserrat",lineHeight:2.14,color:"#FFF",fontWeight:"bold"}}>Techeco Waste Management LLP</Typography>
+                                <Typography variant='body1' component="p" gutterBottom sx={{ml:1,fontSize:"16px",fontFamily:"Montserrat",lineHeight:2.14,color:"#FFF",fontWeight:"bold",mt:{md:"53px"}}}>Corporate Office</Typography>
                                 <Typography variant='body1' component="p" gutterBottom sx={{ml:1,fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.14,color:"#FFF",fontWeight:500,}}>2A 2nd Floor Building No.11/12, Raghuvanshi Mill Compound,SB Road, Lower Parel (W), Mumbai-400013</Typography>
-                                <Typography variant='body1' component="p" gutterBottom sx={{ml:1,fontSize:"16px",fontFamily:"Montserrat",lineHeight:2.14,color:"#FFF",fontWeight:"bold",mt:"53px"}}>Factory</Typography>
+                                <Typography variant='body1' component="p" gutterBottom sx={{ml:1,fontSize:"16px",fontFamily:"Montserrat",lineHeight:2.14,color:"#FFF",fontWeight:"bold",mt:{md:"53px"}}}>Factory</Typography>
                                 <Typography variant='body1' component="p" gutterBottom sx={{ml:1,fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.14,color:"#FFF",fontWeight:500,}}>Gut no. 155 B/2, Village: Dhakambe, Tal: Dindori, Dist: Nashik Maharashtra, India.</Typography>
                             </Box>
                         </Grid>

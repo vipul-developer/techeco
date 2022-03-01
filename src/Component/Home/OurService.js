@@ -28,7 +28,7 @@ const OurService = () => {
                                     title="E-Waste"
                                     subheader="We use a wide range of data erasing, sanitation and destruction services that meet the latest protection standards to eliminate the potential security risks"
                                     sx={{
-                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-35px",xs:"-115px"},},
+                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-35px",xs:"-65px"},},
                                         '& .MuiCardHeader-title':{fontSize:"24px",fontWeight:600,fontFamily:"Montserrat",ml:{md:5},mb:{md:2}},
                                         '& .MuiCardHeader-subheader':{fontSize:"14px",fontWeight:600,fontFamily:"Montserrat",lineHeight:1.57,color:"#0e5156",ml:{md:5}}
 
@@ -43,7 +43,7 @@ const OurService = () => {
                                     title="Battery Waste"
                                     subheader="Creating an EPR and PRO Framework for battery waste recycling"
                                     sx={{
-                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-12px",xs:"-51px"}},
+                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-12px",xs:"-32px"}},
                                         '& .MuiCardHeader-title':{fontSize:"24px",fontWeight:600,fontFamily:"Montserrat",ml:{md:5},mb:{md:2}},
                                         '& .MuiCardHeader-subheader':{fontSize:"14px",fontWeight:600,fontFamily:"Montserrat",lineHeight:1.57,color:"#0e5156",ml:{md:5}}
 
@@ -58,7 +58,7 @@ const OurService = () => {
                                     title="Plastic Waste"
                                     subheader="Catalyse innovation in post-consumer plastic waste management and strengthen awareness on plastic waste management."
                                     sx={{
-                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-23px",xs:"-95px"}},
+                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-23px",xs:"-48px"}},
                                         '& .MuiCardHeader-title':{fontSize:"24px",fontWeight:600,fontFamily:"Montserrat",ml:{md:5},mb:{md:2}},
                                         '& .MuiCardHeader-subheader':{fontSize:"14px",fontWeight:600,fontFamily:"Montserrat",lineHeight:1.57,color:"#0e5156",ml:{md:5}}
 
@@ -73,7 +73,7 @@ const OurService = () => {
                                     title="Automobile Waste"
                                     subheader="End of vehicles are collected from owner and aggregators and taken to the recycling plant."
                                     sx={{
-                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-12px",xs:"-63px"}},
+                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-12px",xs:"-48px"}},
                                         '& .MuiCardHeader-title':{fontSize:"24px",fontWeight:600,fontFamily:"Montserrat",ml:{md:5},mb:{md:2}},
                                         '& .MuiCardHeader-subheader':{fontSize:"14px",fontWeight:600,fontFamily:"Montserrat",lineHeight:1.57,color:"#0e5156",ml:{md:5}}
 
@@ -88,7 +88,7 @@ const OurService = () => {
                                     title="Glass Waste"
                                     subheader="ur dedicated collection and recycling service for waste glass is simple to use, convenient and environmentally friendly."
                                     sx={{
-                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-23px",xs:"-85px"}},
+                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-23px",xs:"-53px"}},
                                         '& .MuiCardHeader-title':{fontSize:"24px",fontWeight:600,fontFamily:"Montserrat",ml:{md:5},mb:{md:2}},
                                         '& .MuiCardHeader-subheader':{fontSize:"14px",fontWeight:600,fontFamily:"Montserrat",lineHeight:1.57,color:"#0e5156",ml:{md:5}}
 
@@ -103,7 +103,7 @@ const OurService = () => {
                                     title="Rubber Waste"
                                     subheader="we assure that your rubber waste is handled with full compliance and using the latest environmental regulations."
                                     sx={{
-                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-23px",xs:"-85px"}},
+                                        '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-23px",xs:"-70px"}},
                                         '& .MuiCardHeader-title':{fontSize:"24px",fontWeight:600,fontFamily:"Montserrat",ml:{md:5},mb:{md:2}},
                                         '& .MuiCardHeader-subheader':{fontSize:"14px",fontWeight:600,fontFamily:"Montserrat",lineHeight:1.57,color:"#0e5156",ml:{md:5}}
 
