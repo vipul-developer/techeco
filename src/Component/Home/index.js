@@ -4,6 +4,7 @@ import HeroImage from "./HeroImage";
 import MakeWaste from './MakeWaste';
 import OurService from "./OurService";
 import SimpleProcess from "./SimpleProcess";
+import Collaborative from './Collaborative';
 const Home = () => {
     return (
         <>
@@ -11,6 +12,7 @@ const Home = () => {
             <MakeWaste/>
             <OurService/>
             <SimpleProcess/>
+            <Collaborative/>
         </>
     );
 };
