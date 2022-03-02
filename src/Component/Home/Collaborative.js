@@ -45,11 +45,11 @@ const Collaborative = () => {
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{textAlign:"center",margin:"85px 0px"}}>
-                            <Typography variant='body1' component="div" gutterBottom sx={{fontSize:"30px",fontFamily:"Montserrat",lineHeight:1.25,fontWeight:600,color:"#33bc82"}}>Change is collaborative. hear from our collective</Typography>
-                            <Typography variant='body1' component="div" gutterBottom sx={{fontSize:"24px",fontFamily:"Montserrat",lineHeight:1.25,fontWeight:500,color:"#0e5156"}}>join pioneers who are leading the movement</Typography>
+                            <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"30px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:600,color:"#33bc82"}}>Change is collaborative. hear from our collective</Typography>
+                            <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"24px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:500,color:"#0e5156"}}>join pioneers who are leading the movement</Typography>
                         </Box>
                         <Slider {...setting}>
-                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:3}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:{md:3},}}>
                                 <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#33bc82",position:"relative",top:"12.2px",borderRadius:"6px 6px 0 0"}}/>
                                 <Card sx={{padding:{md:"32.5px 29.5px 17.3px 53.9px"}}}>
                                     <CardContent>
@@ -67,7 +67,7 @@ const Collaborative = () => {
                                     </Box>
                                 </Card>
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:3}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:{md:3},}}>
                                 <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#0e5156",position:"relative",top:"12.2px",borderRadius:"6px 6px 0 0"}}/>
                                 <Card sx={{padding:{md:"32.5px 29.5px 17.3px 53.9px"}}}>
                                     <CardContent>
@@ -85,7 +85,7 @@ const Collaborative = () => {
                                     </Box>
                                 </Card>
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:3}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:{md:3},}}>
                                 <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#33bc82",position:"relative",top:"12.2px",borderRadius:"6px 6px 0 0"}}/>
                                 <Card sx={{padding:{md:"32.5px 29.5px 17.3px 53.9px"}}}>
                                     <CardContent>
@@ -103,7 +103,7 @@ const Collaborative = () => {
                                     </Box>
                                 </Card>
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:3}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:{md:3},}}>
                                 <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#0e5156",position:"relative",top:"12.2px",borderRadius:"6px 6px 0 0"}}/>
                                 <Card sx={{padding:{md:"32.5px 29.5px 17.3px 53.9px"}}}>
                                     <CardContent>
@@ -121,7 +121,7 @@ const Collaborative = () => {
                                     </Box>
                                 </Card>
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:3}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:{md:3},}}>
                                 <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#33bc82",position:"relative",top:"12.2px",borderRadius:"6px 6px 0 0"}}/>
                                 <Card sx={{padding:{md:"32.5px 29.5px 17.3px 53.9px"}}}>
                                     <CardContent>
@@ -139,7 +139,7 @@ const Collaborative = () => {
                                     </Box>
                                 </Card>
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:3}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:{md:3},}}>
                                 <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#0e5156",position:"relative",top:"12.2px",borderRadius:"6px 6px 0 0"}}/>
                                 <Card sx={{padding:{md:"32.5px 29.5px 17.3px 53.9px"}}}>
                                     <CardContent>
@@ -157,7 +157,7 @@ const Collaborative = () => {
                                     </Box>
                                 </Card>
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:3}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:{md:3},}}>
                                 <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#33bc82",position:"relative",top:"12.2px",borderRadius:"6px 6px 0 0"}}/>
                                 <Card sx={{padding:{md:"32.5px 29.5px 17.3px 53.9px"}}}>
                                     <CardContent>
@@ -175,7 +175,7 @@ const Collaborative = () => {
                                     </Box>
                                 </Card>
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:3}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",boxShadow:"none",borderColor:"rgba(0, 0, 0, 0.2)",p:{md:3},}}>
                                 <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#0e5156",position:"relative",top:"12.2px",borderRadius:"6px 6px 0 0"}}/>
                                 <Card sx={{padding:{md:"32.5px 29.5px 17.3px 53.9px"}}}>
                                     <CardContent>
