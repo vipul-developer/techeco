@@ -14,7 +14,7 @@ const MakeWaste = () => {
                                 <Box sx={{textAlign:"center",margin:"0 0 103px 0"}}>
                                     <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"20px"},lineHeight:0.7,margin:"77px 0 26px 0",fontFamily:"Montserrat",color:"#000"}}>Take-make-waste is obsolete</Typography>
                                     <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,lineHeight:0.94,margin:"0 0 21px 0",color:"#33bc82",fontFamily:"Montserrat"}}>Rethink your legacy</Typography>
-                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,lineHeight:1.42,fontFamily:"Montserrat",color:"#000"}}>Techeco eWaste Namo LLp provides comprehensive <br/> complete and responsible recycling service.</Typography>
+                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,lineHeight:1.42,fontFamily:"Montserrat",color:"#000"}}>Techeco Waste Management LLP provides comprehensive <br/> complete and responsible recycling service.</Typography>
                                 </Box>
                             </Box>
                         </Container>

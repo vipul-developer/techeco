@@ -86,7 +86,7 @@ const OurService = () => {
                                 <CardHeader
                                     avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
                                     title="Glass Waste"
-                                    subheader="ur dedicated collection and recycling service for waste glass is simple to use, convenient and environmentally friendly."
+                                    subheader="Your dedicated collection and recycling service for waste glass is simple to use, convenient and environmentally friendly."
                                     sx={{
                                         '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-23px",xs:"-53px"}},
                                         '& .MuiCardHeader-title':{fontSize:"24px",fontWeight:600,fontFamily:"Montserrat",ml:{md:5},mb:{md:2}},
@@ -101,7 +101,7 @@ const OurService = () => {
                                 <CardHeader
                                     avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
                                     title="Rubber Waste"
-                                    subheader="we assure that your rubber waste is handled with full compliance and using the latest environmental regulations."
+                                    subheader="We assure that your rubber waste is handled with full compliance and using the latest environmental regulations."
                                     sx={{
                                         '& .MuiCardHeader-avatar':{width:"75px",height:"75px",position:"relative",top:{md:"-23px",xs:"-70px"}},
                                         '& .MuiCardHeader-title':{fontSize:"24px",fontWeight:600,fontFamily:"Montserrat",ml:{md:5},mb:{md:2}},
