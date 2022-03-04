@@ -6,7 +6,7 @@ import PhoneIcon from '@mui/icons-material/Phone';
 const Footer = () => {
     return (
         <>
-            <Grid container sx={{backgroundColor:"#033e43",padding:{md:"82.6px 100px 0 56.8px"},mt:5,pb:5}}>
+            <Grid container sx={{backgroundColor:"#033e43",padding:{md:"82.6px 100px 0 56.8px"}}}>
                 <Grid item xs={12}>
                     <Container fixed>
                         <Toolbar disableGutters>

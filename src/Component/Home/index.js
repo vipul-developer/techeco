@@ -5,6 +5,8 @@ import MakeWaste from './MakeWaste';
 import OurService from "./OurService";
 import SimpleProcess from "./SimpleProcess";
 import Collaborative from './Collaborative';
+import OurClient from "./OurClient";
+import ContactUs from "../ContactUs";
 const Home = () => {
     return (
         <>
@@ -12,7 +14,9 @@ const Home = () => {
             <MakeWaste/>
             <OurService/>
             <SimpleProcess/>
+            <OurClient/>
             <Collaborative/>
+            <ContactUs/>
         </>
     );
 };
