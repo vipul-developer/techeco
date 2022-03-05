@@ -27,6 +27,7 @@ const Collaborative = () => {
                   slidesToShow: 1,
                   slidesToScroll: 1,
                   autoplay: true,
+                  dots: true,
                 } 
             },
             {
@@ -35,13 +36,14 @@ const Collaborative = () => {
                     slidesToShow: 1,
                     slidesToScroll: 1,
                     autoplay: true,
+                    dots: true,
                 }
             }
         ]
     }
     return (
         <>
-            <Grid container sx={{overflow:"hidden"}}>
+            <Grid container sx={{overflow:"hidden",mb:5}}>
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{textAlign:"center",margin:"85px 0px"}}>

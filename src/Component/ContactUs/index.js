@@ -107,11 +107,11 @@ class ContactUs extends Component {
     render() {
         return (
             <>
-                <Grid container sx={{backgroundColor:"#effaf5",padding:{md:"76px 100.5px 76px 100px"},}}>
+                <Grid container sx={{backgroundColor:"#effaf5",padding:{md:"76px 100.5px 76px 100px"},pt:5,pb:5}}>
                     <Grid item xs={12}>
                         <Container fixed>
                             <Grid container>
-                                <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
+                                <Grid item xl={6} lg={6} md={6} sm={6} xs={12} sx={{mb:3}}>
                                     <Box>
                                         <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"20px",fontFamily:"Montserrat",color:"#000"}}>Contact us</Typography>
                                         <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"48px",fontWeight:600,fontFamily:"Montserrat",color:"#0e5156",lineHeight:1.21,margin:"27px 0 0 0"}}>Let’s make<br/>this possible.<br/><span style={{color:"#33bc82"}}>Together</span></Typography>
@@ -139,7 +139,7 @@ class ContactUs extends Component {
                                             formdata={this.state.formdata.supportYou}
                                             change={(element) => this.updateForm(element)}
                                         />
-                                        <Button variant="contained" sx={{padding:"18.3px 36.6px 19.3px 35.6px",color:"#FFF",backgroundColor:"#0e5156",borderRadius:"12px",fontSize:"18px",fontWeight:"bold",fontFamily:"Montserrat",textTransform:"capitalize"}} onClick={(element) => {this.submitFrom(element)}}>Submit</Button>
+                                        <Button variant="contained" sx={{padding:{md:"18.3px 36.6px 19.3px 35.6px"},color:"#FFF",backgroundColor:"#0e5156",borderRadius:"12px",fontSize:"18px",fontWeight:"bold",fontFamily:"Montserrat",textTransform:"capitalize",'&:hover':{backgroundColor:"#0e5156"},}} onClick={(element) => {this.submitFrom(element)}}>Submit</Button>
                                     </Box>
                                 </Grid>
                             </Grid>

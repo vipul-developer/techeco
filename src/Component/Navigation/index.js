@@ -1,7 +1,7 @@
 import React,{ useState } from 'react';
 import { withRouter,NavLink } from 'react-router-dom';
 import { menuList } from '../../Misc/MenuList';
-import { Box,AppBar,Toolbar,IconButton,Typography,Menu,MenuItem,Container,Button,useMediaQuery } from "@mui/material";
+import { Box,Grid,AppBar,Toolbar,IconButton,Typography,Menu,MenuItem,Container,Button,useMediaQuery } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import Logo from "../../Resources/Images/techeco-logo.svg";
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -56,48 +56,52 @@ const Navigation = () => {
     return (
         <>
             <AppBar position="fixed" sx={{backgroundColor:"#FFF",height:{md:"97px"},boxShadow:"none"}}>
-                <Container fixed sx={{pt:{md:2}}}>
-                    <Toolbar disableGutters>
-                        <NavLink exact to={"/"} style={{flexGrow:1}}>
-                            <Typography
-                                variant="h6"
-                                noWrap
-                                component="div"
-                                color="#000"
-                                sx={{flexGrow:1}}
-                            >
-                                <img src={Logo} alt="Logo" className="img-fluid" style={{height: matches ? "26px" : "auto" }}/>
-                            </Typography>
-                        </NavLink>
-                        <Box sx={{display: { xs:'none',md:'flex'} }}>
-                            {renderMenu(menuList,"primary")}
-                        </Box>
-                        <Box sx={{display: { xs:'flex',md:'none'} }}>
-                            <IconButton
-                                size="large"
-                                aria-label="account of current user"
-                                aria-controls="menu-appbar"
-                                aria-haspopup="true"
-                                onClick={handleOpenNavMenu}
-                                sx={{color:"#000"}}
-                            >
-                                <MenuIcon />
-                            </IconButton>
-                            <Menu
-                                id="menu-appbar"
-                                anchorEl={anchorElNav}
-                                anchorOrigin={{vertical:'bottom',horizontal:'right'}}
-                                keepMounted
-                                transformOrigin={{vertical:'top',horizontal:'right'}}
-                                open={Boolean(anchorElNav)}
-                                onClose={handleCloseNavMenu}
-                                sx={{display: {xs:'block',md:'none'},"& .MuiPaper-elevation":{width:"100%",pl:3,pr:3,pb:5,top:{sm:"68px !important",xs:"61px !important"},},}}
-                            >
-                                {renderMenu(menuList,"mobileMenu")}
-                            </Menu>
-                        </Box>
-                    </Toolbar>
-                </Container>
+                <Grid container>
+                    <Grid item xs={12}>
+                        <Container fixed sx={{pt:{md:2}}}>
+                            <Toolbar disableGutters>
+                                <NavLink exact to={"/"} style={{flexGrow:1}}>
+                                    <Typography
+                                        variant="h6"
+                                        noWrap
+                                        component="div"
+                                        color="#000"
+                                        sx={{flexGrow:1}}
+                                    >
+                                        <img src={Logo} alt="Logo" className="img-fluid" style={{height: matches ? "26px" : "auto" }}/>
+                                    </Typography>
+                                </NavLink>
+                                <Box sx={{display: { xs:'none',md:'flex'} }}>
+                                    {renderMenu(menuList,"primary")}
+                                </Box>
+                                <Box sx={{display: { xs:'flex',md:'none'} }}>
+                                    <IconButton
+                                        size="large"
+                                        aria-label="account of current user"
+                                        aria-controls="menu-appbar"
+                                        aria-haspopup="true"
+                                        onClick={handleOpenNavMenu}
+                                        sx={{color:"#000"}}
+                                    >
+                                        <MenuIcon />
+                                    </IconButton>
+                                    <Menu
+                                        id="menu-appbar"
+                                        anchorEl={anchorElNav}
+                                        anchorOrigin={{vertical:'bottom',horizontal:'right'}}
+                                        keepMounted
+                                        transformOrigin={{vertical:'top',horizontal:'right'}}
+                                        open={Boolean(anchorElNav)}
+                                        onClose={handleCloseNavMenu}
+                                        sx={{display: {xs:'block',md:'none'},"& .MuiPaper-elevation":{width:"100%",pl:3,pr:3,pb:5,top:{sm:"68px !important",xs:"61px !important"},},}}
+                                    >
+                                        {renderMenu(menuList,"mobileMenu")}
+                                    </Menu>
+                                </Box>
+                            </Toolbar>
+                        </Container>
+                    </Grid>
+                </Grid>
             </AppBar>  
         </>
     );

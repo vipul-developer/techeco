@@ -6,7 +6,7 @@ const OurClient = () => {
             <Grid container sx={{margin:"110px 0 0"}}>
                 <Grid item xs={12}>
                     <Box sx={{display:"flex",justifyContent:"center"}}>
-                        <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"48px",fontFamily:"Montserrat",fontWeight:600,lineHeight:0.94,color:"#33bc82"}}>Leading brands we work with</Typography>
+                        <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontFamily:"Montserrat",fontWeight:600,lineHeight:0.94,color:"#33bc82",textAlign:"center"}}>Leading brands we work with</Typography>
                     </Box>    
                 </Grid>    
             </Grid>
@@ -19,7 +19,7 @@ const OurClient = () => {
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"24px",fontFamily:"Montserrat",fontWeight:600,lineHeight:1.88,color:"#0e5156"}}>Our Clients</Typography>
                                 </Box>    
                             </Grid>
-                            <Grid container item xs={12}>
+                            <Grid container item xs={12} sx={{mb:1}}>
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 1</Grid> 
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 2</Grid> 
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 3</Grid> 
@@ -32,7 +32,7 @@ const OurClient = () => {
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"24px",fontFamily:"Montserrat",fontWeight:600,lineHeight:1.88,color:"#0e5156"}}>PRO Clients</Typography>
                                 </Box>    
                             </Grid>
-                            <Grid container item xs={12}>
+                            <Grid container item xs={12} sx={{mb:1}}>
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 1</Grid> 
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 2</Grid> 
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 3</Grid> 
@@ -45,7 +45,7 @@ const OurClient = () => {
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"24px",fontFamily:"Montserrat",fontWeight:600,lineHeight:1.88,color:"#0e5156"}}>EPR Clients</Typography>
                                 </Box>    
                             </Grid>
-                            <Grid container item xs={12}>
+                            <Grid container item xs={12} sx={{mb:1}}>
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 1</Grid> 
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 2</Grid> 
                                 <Grid item xl={2} lg={2} md={2} sm={2} xs={12}>Client 3</Grid> 

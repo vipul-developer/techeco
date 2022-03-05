@@ -36,7 +36,7 @@ const SimpleProcess = () => {
                         <Box sx={{pt:3,textAlign:"center"}}>
                             <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,lineHeight:0.94,color:"#0e5156",fontFamily:"Montserrat"}}>Schedule your pickup</Typography>
                             <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:600,lineHeight:2.25,color:"#0e5156",fontFamily:"Montserrat"}}>Call us on our toll free number</Typography>
-                            <Button variant='contained' disableElevation startIcon={<PhoneIcon size="large"/>} size="large" sx={{fontFamily:"Montserrat",fontSize:{md:"36px"},fontWeight:"bold",lineHeight:0.72,padding:"23px 31px 19px 35px",backgroundColor:"#33bc82",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82"},}}>1800-889-3121</Button>
+                            <Button variant='contained' disableElevation startIcon={<PhoneIcon size="large"/>} size="large" sx={{fontFamily:"Montserrat",fontSize:{md:"36px"},fontWeight:"bold",lineHeight:0.72,padding:{md:"23px 31px 19px 35px"},backgroundColor:"#33bc82",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82"},}}>1800-889-3121</Button>
                         </Box>
                     </Container>
                 </Grid>
