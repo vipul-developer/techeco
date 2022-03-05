@@ -43,7 +43,7 @@ const Collaborative = () => {
     }
     return (
         <>
-            <Grid container sx={{overflow:"hidden",mb:5}}>
+            <Grid container sx={{mb:5}}>
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{textAlign:"center",margin:"85px 0px"}}>

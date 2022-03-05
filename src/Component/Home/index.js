@@ -6,7 +6,7 @@ import OurService from "./OurService";
 import SimpleProcess from "./SimpleProcess";
 import Collaborative from './Collaborative';
 import OurClient from "./OurClient";
-import ContactUs from "../ContactUs";
+import ContactForm from "../ContactUs/ContactForm";
 const Home = () => {
     return (
         <>
@@ -16,7 +16,7 @@ const Home = () => {
             <SimpleProcess/>
             <OurClient/>
             <Collaborative/>
-            <ContactUs/>
+            <ContactForm/>
         </>
     );
 };

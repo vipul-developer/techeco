@@ -40,3 +40,36 @@ a:focus{
 .slick-dots li.slick-active button:before{
   color: #33bc82 !important;
 }
+.member .member-img {
+  position: relative;
+  overflow: hidden;
+}
+.member .social {
+  position: absolute;
+  left: 0;
+  bottom:-50px;
+  right: 0;
+  height: 50px;
+  opacity: 0;
+  transition: bottom ease-in-out 0.4s;
+  text-align: center;
+  background: rgba(30, 67, 86, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 0 14.9px 14.9px;
+  color: #FFF;
+}
+.member:hover .social {
+  bottom:0;
+  opacity: 1;
+  transition: bottom ease-in-out 0.4s;
+}
+.member .social a{
+  text-decoration: none !important;
+  padding: 4px;
+  color: inherit;
+}
+.member .social a:hover{
+ color: #33bc82;
+}
