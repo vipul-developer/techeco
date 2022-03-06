@@ -44,7 +44,7 @@ const Collaborative = () => {
     return (
         <>
             <Grid container sx={{mb:5}}>
-                <Grid item xs={12}>
+                <Grid item xs={12} sx={{overflow:"hidden"}}>
                     <Container fixed>
                         <Box sx={{textAlign:"center",margin:"85px 0px"}}>
                             <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"30px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:600,color:"#33bc82"}}>Change is collaborative. hear from our collective</Typography>

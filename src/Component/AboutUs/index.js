@@ -189,7 +189,7 @@ const AboutUs = () => {
                             </Typography>
                         </Box> 
                     </Grid>
-                    <Grid item xs={12}>
+                    <Grid item xs={12} sx={{overflow:"hidden"}}>
                         <Slider {...setting}>
                             <div style={{borderRadius:"15px"}}>
                                 <CardMedia
