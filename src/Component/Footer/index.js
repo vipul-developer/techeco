@@ -67,13 +67,7 @@ const Footer = () => {
                                                 </ListItemButton>
                                             </NavLink>
                                         </ListItem>
-                                        <ListItem disablePadding>
-                                            <NavLink exact to={"/tecteco/blogs"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
-                                                <ListItemButton sx={{"&:hover":{backgroundColor:"transparent"},"&:foces":{backgroundColor:"transparent"}}}>
-                                                    <ListItemText primary="Blogs" />
-                                                </ListItemButton>
-                                            </NavLink>
-                                        </ListItem>
+                                       
                                         <ListItem disablePadding>
                                             <NavLink exact to={"/tecteco/contacts"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
                                                 <ListItemButton sx={{"&:hover":{backgroundColor:"transparent"},"&:foces":{backgroundColor:"transparent"}}}>
@@ -89,7 +83,7 @@ const Footer = () => {
                             <Box sx={{margin:{md:"63.7px 0 102px 19px"},padding:{md:"33px 42px 40px 36px"},borderRadius:"12px",border:"solid 1px #33bc82",width:"100%",textAlign:"center",pb:{xs:3},pt:{xs:3}}}>
                                 <Typography variant='body1' component="p" gutterBottom sx={{fontSize:"24px",fontFamily:"Montserrat",lineHeight:1.88,color:"#FFF",fontWeight:600}}>Schedule your pickup</Typography>
                                 <Typography variant='body1' component="p" gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:2.81,color:"#FFF",fontWeight:500,margin:{md:"46px 0 0 0"},}}>Call us on our toll free number</Typography>
-                                <Button variant='contained' disableElevation startIcon={<PhoneIcon size="large"/>} size="large" sx={{fontFamily:"Montserrat",fontSize:{md:"28px"},fontWeight:"bold",lineHeight:0.93,padding:{md:"22px 30px 18px 34px"},backgroundColor:"#33bc82",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82"},}}>1800-889-3121</Button>
+                                <Button variant='contained' disableElevation startIcon={<PhoneIcon size="large"/>} sx={{fontFamily:"Montserrat",fontSize:{md:"28px"},fontWeight:"bold",lineHeight:0.93,padding:{md:"22px 30px 18px 34px"},backgroundColor:"#33bc82",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82"},}}>1800-889-3121</Button>
                             </Box>
                         </Grid>
                     </Grid>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextField,InputLabel } from "@mui/material";
+import { FormControl,TextField,InputLabel,Select,MenuItem } from "@mui/material";
 const FormFileds = ({ formdata, change, id }) => {
     const showError = () => {
         let errorMessage = null;
@@ -26,6 +26,30 @@ const FormFileds = ({ formdata, change, id }) => {
                         />
                     </>
                 )
+            break;
+            case("select"):
+                formTemplate = (
+                    <FormControl variant="outlined" fullWidth sx={{m:1}}>
+                        <InputLabel id={id}>{formdata.config.label}</InputLabel>
+                        <Select
+                            {...formdata.config}
+                            value={formdata.value}
+                            onBlur={ (event)=> change({ event, id, blur:true }) }
+                            onChange={ (event)=> change({ event, id }) }
+                        >
+                            {
+                                formdata.config.options.map(item => (
+                                    <MenuItem
+                                        key={item.key}
+                                        value={item.value}
+                                    >
+                                        {item.value}
+                                    </MenuItem>
+                                ))
+                            }
+                        </Select>
+                    </FormControl>
+                ); 
             break;
             default:
                 formTemplate = null;

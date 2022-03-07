@@ -34,13 +34,13 @@ export const menuList = [
         "public":true,
         "isActive":true,
     },
-    {
-        "id":"techeco_2022_006",
-        "name":"Blogs",
-        "linkTo":"/tecteco/blogs",
-        "public":true,
-        "isActive":true,
-    },
+    // {
+    //     "id":"techeco_2022_006",
+    //     "name":"Blogs",
+    //     "linkTo":"/tecteco/blogs",
+    //     "public":true,
+    //     "isActive":true,
+    // },
     {
         "id":"techeco_2022_007",
         "name":"Contacts",

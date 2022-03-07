@@ -73,3 +73,6 @@ a:focus{
 .member .social a:hover{
  color: #33bc82;
 }
+.css-sm407l-MuiButtonBase-root-MuiTab-root.Mui-selected{
+  color:"#33bc82 !important"
+}
