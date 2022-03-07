@@ -51,7 +51,7 @@ export const menuList = [
     {
         "id":"techeco_2022_008",
         "name":"1800-889-3121",
-        "linkTo":"/tecteco/take_action",
+        "linkTo":"#",
         "public":true,
         "isActive":true,
     }

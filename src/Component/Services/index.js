@@ -1,20 +1,25 @@
 import React from 'react';
 import { Box,Grid,Container,Typography,CardMedia } from "@mui/material";
+import { Fade } from "react-awesome-reveal";
 import ContactForm from "../ContactUs/ContactForm";
 import imageService from "../../Resources/Images/service_img1.jpg";
 const Services = () => {
     return (
         <>
-            <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.7) 0%, rgba(51, 188, 130, 0) 45%)"}}>
+            <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.3) 0%, rgba(51, 188, 130, 0) 45%)"}}>
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{padding:{md:"99px 155px 66px 155px"},textAlign:"center"}}>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"30px",mt:5}}>
-                                E-Waste Services
-                            </Typography>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.7,color:"#0e5156"}}>
-                                Setting up an industry-first PRO solution. 
-                            </Typography>
+                            <Box sx={{mt:5}}>
+                            <Fade direction="up">
+                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"30px"}}>
+                                    E-Waste Services
+                                </Typography>
+                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.7,color:"#0e5156"}}>
+                                    Setting up an industry-first PRO solution. 
+                                </Typography>
+                            </Fade>
+                            </Box>
                         </Box>
                     </Container>    
                 </Grid>        

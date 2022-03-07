@@ -2,6 +2,7 @@ import React from 'react';
 import { withRouter,Link } from 'react-router-dom';
 import { Box,Grid,Container,Typography,CardMedia } from "@mui/material";
 import Slider from "react-slick";
+import { Fade } from "react-awesome-reveal";
 import ContactForm from '../ContactUs/ContactForm';
 import aboutHero from "../../Resources/Images/about_hero.jpg";
 import aboutMap from "../../Resources/Images/about_map.jpg";
@@ -50,22 +51,26 @@ const AboutUs = () => {
     }
     return (
         <>
-            <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.7) 0%, rgba(51, 188, 130, 0) 35%)"}}>
+            <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.3) 0%, rgba(51, 188, 130, 0) 35%)"}}>
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{padding:{md:"99px 155px 258px 155px"},textAlign:"center"}}>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"50px",mt:5}}>
-                                Be a hero.<br/>Save mother nature
-                            </Typography>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.5,color:"#0e5156",mb:5,mt:5}}>
-                                Techeco was founded in 2018 with a strong focus on bringing waste management infrastructure, recycling and upcycling services across India;Techeco envisions a sustainable future that is inclusive,responsible and climate-conscious.
-                            </Typography>
+                            <Box sx={{mt:5}}>
+                            <Fade direction="up">
+                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"50px"}}>
+                                    Be a hero.<br/>Save mother nature
+                                </Typography>
+                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.5,color:"#0e5156",mb:5,mt:5}}>
+                                    Techeco was founded in 2018 with a strong focus on bringing waste management infrastructure, recycling and upcycling services across India;Techeco envisions a sustainable future that is inclusive,responsible and climate-conscious.
+                                </Typography>
+                            </Fade> 
+                            </Box>
                             <Box sx={{display:"flex",borderRadius:"12px",position:"relative",backgroundImage:`url(${aboutHero})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",height:481,mb:5}}>
                                 <div style={{backgroundImage:"linear-gradient(to bottom, rgba(14, 81, 86, 0) 59%, #0e5156 100%)",position:"absolute",width:"100%",height:"100%",top:0,left:0,borderRadius:"12px"}}></div>
                             </Box>
                         </Box>    
                     </Container>
-                </Grid>   
+                </Grid> 
             </Grid>
             <Grid container>
                 <Container fixed>
@@ -90,12 +95,14 @@ const AboutUs = () => {
                 <Container fixed>
                     <Grid container item xs={12}>
                         <Box sx={{display:"inline-block",width:"100%",textAlign:"center",mb:"55px"}}>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:0.94,color:"#0e5156",mb:4}}>
-                                Our Leadership
-                            </Typography>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"20px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.5,color:"#0e5156"}}>
-                                Techeco Waste Management LLP provides comprehensive<br/>complete and responsible recycling service.
-                            </Typography>
+                            <Fade direction="up">
+                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:0.94,color:"#0e5156",mb:4}}>
+                                    Our Leadership
+                                </Typography>
+                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"20px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.5,color:"#0e5156"}}>
+                                    Techeco Waste Management LLP provides comprehensive<br/>complete and responsible recycling service.
+                                </Typography>
+                            </Fade>
                         </Box>  
                     </Grid>
                     <Grid container item xs={12} spacing={3} sx={{p:3,mb:"209px"}}>
@@ -181,12 +188,14 @@ const AboutUs = () => {
                 <Container fixed>
                     <Grid container item xs={12}>
                         <Box sx={{display:"inline-block",width:"100%",textAlign:"center",mb:"55px"}}>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:0.94,color:"#0e5156",mb:4}}>
-                                Glimpse of Techeco
-                            </Typography>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"24px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.25,color:"#0e5156"}}>
-                                we’ve made it possible with your support and love
-                            </Typography>
+                            <Fade direction="up">
+                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:0.94,color:"#0e5156",mb:4}}>
+                                    Glimpse of Techeco
+                                </Typography>
+                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"24px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.25,color:"#0e5156"}}>
+                                    we’ve made it possible with your support and love
+                                </Typography>
+                            </Fade>
                         </Box> 
                     </Grid>
                     <Grid item xs={12} sx={{overflow:"hidden",pb:5}}>

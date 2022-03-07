@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box,Grid,Container,Typography,CardMedia,Card,CardActions,CardContent,Button } from "@mui/material";
+import { Fade } from "react-awesome-reveal";
 import ContactForm from "../ContactUs/ContactForm";
 import Slider from "react-slick";
 import img1 from "../../Resources/Images/ini_img1.jpg";
@@ -17,16 +18,20 @@ const Initiatives = () => {
     }
     return (
         <>
-            <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.7) 0%, rgba(51, 188, 130, 0) 45%)"}}>
+            <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.3) 0%, rgba(51, 188, 130, 0) 45%)"}}>
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{padding:{md:"99px 155px 30px 155px"},textAlign:"center"}}>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"30px",mt:5}}>
-                                Our Initiatives
-                            </Typography>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.88,color:"#0e5156"}}>
-                                Make recycling a way of life for a billion people 
-                            </Typography>
+                            <Box sx={{mt:5}}>
+                                <Fade direction="up">
+                                    <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"30px"}}>
+                                        Our Initiatives
+                                    </Typography>
+                                    <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.88,color:"#0e5156"}}>
+                                        Make recycling a way of life for a billion people 
+                                    </Typography>
+                                </Fade>
+                            </Box>
                         </Box>
                     </Container>    
                 </Grid>        

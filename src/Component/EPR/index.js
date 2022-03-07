@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Box,Grid,Container,Typography,CardMedia,List,ListItem,ListItemIcon,ListItemText } from "@mui/material";
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
+import { Fade } from "react-awesome-reveal";
 import EPRImages1 from "../../Resources/Images/epr_img1.jpg";
 import mobile1 from "../../Resources/Images/mobile1.jpg";
 import mobile2 from "../../Resources/Images/mobile2.jpg";
@@ -22,16 +23,20 @@ class EPR extends Component {
         }
         return (
             <>
-                <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.7) 0%, rgba(51, 188, 130, 0) 45%)"}}>
+                <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.3) 0%, rgba(51, 188, 130, 0) 45%)"}}>
                     <Grid item xs={12}>
                         <Container fixed>
                             <Box sx={{padding:{md:"99px 155px 258px 155px"},textAlign:"center"}}>
-                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"30px",mt:5}}>
-                                    EPR For E-Waste
-                                </Typography>
-                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.7,color:"#0e5156",mb:5,mt:5}}>
-                                    Techeco ensuring its responsibility for the entire lifecycle of their products especially in the take-back, recycling, and final 
-                                </Typography>
+                                <Box sx={{mt:5}}>
+                                    <Fade direction="up">
+                                        <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"30px"}}>
+                                            EPR For E-Waste
+                                        </Typography>
+                                        <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.7,color:"#0e5156",mb:5,mt:5}}>
+                                            Techeco ensuring its responsibility for the entire lifecycle of their products especially in the take-back, recycling, and final 
+                                        </Typography>
+                                    </Fade>
+                                </Box>
                             </Box>
                         </Container>    
                     </Grid>        
@@ -141,7 +146,7 @@ class EPR extends Component {
                                 </Box>
                             </Grid>
                             <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                                <Box sx={{pl:{md:"58px"},}}>
+                                <Box sx={{pl:{md:"58px"}}}>
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:"bold",fontFamily:"Montserrat",lineHeight:1.42,color:"#0e5156",mb:"25px"}}>
                                         Role &amp; Responsibilities of PRO
                                     </Typography>
@@ -152,8 +157,6 @@ class EPR extends Component {
                                         A PRO can assist a producer or producers in achieving collection targets, setting up of collection centers/ points/ implementing take back, carrying awareness programmes etc.)
                                         PRO shall have an agreement with producer(s) outlining the role and responsibility of PRO for managing EPR..
                                     </Typography>
-                                </Box>
-                                <Box sx={{pl:{md:"58px"},}}>
                                     <List dense={false}>
                                         <ListItem>
                                             <ListItemIcon>

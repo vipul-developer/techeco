@@ -1,5 +1,5 @@
-import React from 'react';
-import { Switch,Route } from 'react-router-dom';
+import React,{ useLayoutEffect } from 'react';
+import { Switch,Route,useLocation  } from 'react-router-dom';
 import Layout from "./Layout";
 import Home from "./Component/Home";
 import AboutUs from "./Component/AboutUs";
@@ -8,6 +8,10 @@ import Services from "./Component/Services";
 import EPR from "./Component/EPR";
 import Initiatives from "./Component/Initiatives";
 const App = () => {
+  const location = useLocation();
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  },[location.pathname])
   return (
     <Layout>
       <Switch>

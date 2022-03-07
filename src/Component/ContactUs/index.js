@@ -3,19 +3,24 @@ import { Box,Grid,Container,Typography,Button } from "@mui/material";
 import ContactForm from "./ContactForm";
 import PhoneIcon from '@mui/icons-material/Phone';
 import GoogleMaps from "../GoogleMaps";
+import { Fade } from "react-awesome-reveal";
 const ContactUs = () => {
     return (
         <>
-            <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.7) 0%, rgba(51, 188, 130, 0) 50%)"}}>
+            <Grid container sx={{margin:{md:"97px 0 0",xs:"59px 0 0"},backgroundImage:"linear-gradient(to bottom, rgba(51, 188, 130, 0.3) 0%, rgba(51, 188, 130, 0) 50%)"}}>
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{padding:{md:"125px 155px 134px 155px"},textAlign:"center"}}>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:0.29,color:"#33bc82",marginBottom:"26px",mt:5}}>
-                                Get in Touch
-                            </Typography>
-                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.88,color:"#0e5156"}}>
-                                We are all in this together
-                            </Typography>
+                            <Box sx={{mt:5}}>
+                                <Fade direction="up">
+                                    <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:0.29,color:"#33bc82",marginBottom:"26px"}}>
+                                        Get in Touch
+                                    </Typography>
+                                    <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.88,color:"#0e5156"}}>
+                                        We are all in this together
+                                    </Typography>
+                                </Fade>
+                            </Box>
                         </Box>    
                     </Container>    
                 </Grid>    

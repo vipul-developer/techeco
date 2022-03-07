@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Box,Typography,Container,Grid,Button } from "@mui/material";
-import testImage from "../../Resources/Images/techeco-process-1.png";
+import { Box,Typography,Container,Grid,Button,CardMedia } from "@mui/material";
+import VideoClip from "../../Resources/Video/Process-with Text.mp4";
 import PhoneIcon from '@mui/icons-material/Phone';
 import { Fade } from "react-awesome-reveal";
 const SimpleProcess = () => {
@@ -25,9 +25,15 @@ const SimpleProcess = () => {
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{margin:"59.2px 0 53.1px 0",borderRadius:1,}}>
-                            {/* <DeliveryDiningIcon sx={{fontSize:"65px",color:"#FFF",mt:5}}/>
-                            <Typography variant="body" component="p" gutterBottom sx={{fontSize:"48px",fontWeight:600,lineHeight:0.94,color:"#fff",fontFamily:"Montserrat"}}>Schedule Pickup for location</Typography> */}
-                            <img src={testImage} alt="Logo" className="img-fluid"/>
+                            <CardMedia
+                                component="video"
+                                autoPlay
+                                loop
+                                muted
+                                preload="none"
+                                src={VideoClip}
+                                sx={{borderRadius:"12px"}}
+                            />
                         </Box>
                     </Container>
                 </Grid>

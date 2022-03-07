@@ -14,7 +14,6 @@ const FormFileds = ({ formdata, change, id }) => {
             case("input"):
                 formTemplate = (
                     <>
-                        <InputLabel id={id} sx={{fontSize:"16px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156",marginBottom:"12.5px"}}>{formdata.config.label}</InputLabel>
                         <TextField
                             {...formdata.config}
                             value={formdata.value}
@@ -22,7 +21,7 @@ const FormFileds = ({ formdata, change, id }) => {
                             onChange={ (event)=> change({ event, id }) }
                             helperText = { showError() }
                             fullWidth
-                            sx={{marginBottom:"28.5px","&:focus":{outline:"1px solid #000 !important",color:"#0e5156"},}}
+                            sx={{marginBottom:"28.5px","&:focus":{outline:"1px solid #000 !important",color:"#0e5156"},fontSize:"16px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156",marginBottom:"12.5px"}}
                         />
                     </>
                 )
@@ -30,12 +29,13 @@ const FormFileds = ({ formdata, change, id }) => {
             case("select"):
                 formTemplate = (
                     <FormControl variant="outlined" fullWidth sx={{m:1}}>
-                        <InputLabel id={id}>{formdata.config.label}</InputLabel>
+                        <InputLabel id={id} sx={{fontSize:"16px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156",marginBottom:"12.5px"}}>{formdata.config.label}</InputLabel>
                         <Select
                             {...formdata.config}
                             value={formdata.value}
                             onBlur={ (event)=> change({ event, id, blur:true }) }
                             onChange={ (event)=> change({ event, id }) }
+                            sx={{fontSize:"16px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156",marginBottom:"12.5px"}}
                         >
                             {
                                 formdata.config.options.map(item => (
