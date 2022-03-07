@@ -7,7 +7,7 @@ const MakeWaste = () => {
     return (
         <>
             <Grid container>
-                <Fade direction='up' triggerOnce delay={200} style={{textAlign:"center",width:"100%"}}>
+                <Fade direction='up' style={{textAlign:"center",width:"100%"}}>
                     <Grid item xs={12}>
                         <Container fixed>
                             <Box sx={{marginBottom:"33px"}}>

@@ -5,7 +5,7 @@ import VideoClip from "../../Resources/Video/With Text.mp4";
 import { Fade } from "react-awesome-reveal";
 const HeroImage = () => {
     return (
-        <Box sx={{margin:{md:"97px 0 0"},paddingBottom:"49px"}}>
+        <Box sx={{margin:{md:"97px 0 0",xs:"58px 0 0"},paddingBottom:{md:"49px"}}}>
             {/* <Grid container>
                 <Grid container item xs={12}>
                     <Box sx={{overflow:"hidden"}}>
