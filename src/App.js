@@ -6,6 +6,7 @@ import AboutUs from "./Component/AboutUs";
 import ContactUs from "./Component/ContactUs";
 import Services from "./Component/Services";
 import EPR from "./Component/EPR";
+import Initiatives from "./Component/Initiatives";
 const App = () => {
   return (
     <Layout>
@@ -15,6 +16,7 @@ const App = () => {
           <Route path={"/tecteco/contacts"} exact component={ContactUs}/>
           <Route path={"/tecteco/services"} exact component={Services}/>
           <Route path={"/tecteco/epr_for_e-waste"} exact component={EPR}/>
+          <Route path={"/tecteco/initiatives"} exact component={Initiatives}/>
       </Switch>
     </Layout>
   );
