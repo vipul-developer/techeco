@@ -16,7 +16,14 @@ export const menuList = [
     {
         "id":"techeco_2022_003",
         "name":"Services",
-        "linkTo":"/tecteco/services",
+        "subMenu":[
+            {"id":"techeco_2022_003/001","name":"E-Waste","linkTo":"/techeco/services/e_waste","public":true,"isActive":true},
+            {"id":"techeco_2022_003/002","name":"Battery Waste","linkTo":"/techeco/services/battery_waste","public":true,"isActive":true},
+            {"id":"techeco_2022_003/003","name":"Plastic Waste","linkTo":"/techeco/services/plastic_waste","public":true,"isActive":true},
+            {"id":"techeco_2022_003/004","name":"automobile_waste","linkTo":"/techeco/services/automobile_waste","public":true,"isActive":true},
+            {"id":"techeco_2022_003/005","name":"Glass Waste","linkTo":"/techeco/services/glass_waste","public":true,"isActive":true},
+            {"id":"techeco_2022_003/006","name":"Rubber Waste","linkTo":"/techeco/services/rubber_waste","public":true,"isActive":true}
+        ],
         "public":true,
         "isActive":true,
     },
@@ -51,7 +58,6 @@ export const menuList = [
     {
         "id":"techeco_2022_008",
         "name":"1800-889-3121",
-        "linkTo":"#",
         "public":true,
         "isActive":true,
     }

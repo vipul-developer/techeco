@@ -1,7 +1,12 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import { Box,Typography,Container,Grid,Card,CardHeader } from "@mui/material";
-import AutorenewIcon from '@mui/icons-material/Autorenew';
+import eWaste from "../../Resources/Images/ewaste.svg";
+import batteryWaste from "../../Resources/Images/battery-waste.svg";
+import plasticWaste from "../../Resources/Images/plastic-waste.svg";
+import autoWaste from "../../Resources/Images/automotive-waste.svg";
+import glassWaste from "../../Resources/Images/glass-waste.svg";
+import rubberWaste from "../../Resources/Images/rubber-waste.svg";
 import { Fade } from "react-awesome-reveal";
 const OurService = () => {
     return (
@@ -24,7 +29,7 @@ const OurService = () => {
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    avatar={<img alt="e-waste" src={eWaste}/>}
                                     title="E-Waste"
                                     subheader="We use a wide range of data erasing, sanitation and destruction services that meet the latest protection standards to eliminate the potential security risks"
                                     sx={{
@@ -39,7 +44,7 @@ const OurService = () => {
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,pb:"58px"}}>
                                 <CardHeader
-                                    avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    avatar={<img alt="e-waste" src={batteryWaste}/>}
                                     title="Battery Waste"
                                     subheader="Creating an EPR and PRO Framework for battery waste recycling"
                                     sx={{
@@ -54,7 +59,7 @@ const OurService = () => {
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    avatar={<img alt="e-waste" src={plasticWaste}/>}
                                     title="Plastic Waste"
                                     subheader="Catalyse innovation in post-consumer plastic waste management and strengthen awareness on plastic waste management."
                                     sx={{
@@ -69,7 +74,7 @@ const OurService = () => {
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,pb:"39px"}}>
                                 <CardHeader
-                                    avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    avatar={<img alt="e-waste" src={autoWaste}/>}
                                     title="Automobile Waste"
                                     subheader="End of vehicles are collected from owner and aggregators and taken to the recycling plant."
                                     sx={{
@@ -84,7 +89,7 @@ const OurService = () => {
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    avatar={<img alt="e-waste" src={glassWaste}/>}
                                     title="Glass Waste"
                                     subheader="Your dedicated collection and recycling service for waste glass is simple to use, convenient and environmentally friendly."
                                     sx={{
@@ -99,7 +104,7 @@ const OurService = () => {
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
                                 <CardHeader
-                                    avatar={<AutorenewIcon sx={{fontSize:"60px",backgroundColor:"#33bc82",color:"#FFF",p:1,borderRadius:"50px 0px 50px 50px",m:1}}/>}
+                                    avatar={<img alt="e-waste" src={rubberWaste}/>}
                                     title="Rubber Waste"
                                     subheader="We assure that your rubber waste is handled with full compliance and using the latest environmental regulations."
                                     sx={{

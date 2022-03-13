@@ -4,18 +4,18 @@ import { Box,Grid,Container,Typography,CardMedia } from "@mui/material";
 import Slider from "react-slick";
 import { Fade } from "react-awesome-reveal";
 import ContactForm from '../ContactUs/ContactForm';
-import aboutHero from "../../Resources/Images/about_hero.jpg";
+import aboutTecheco from "../../Resources/Images/about-techeco.jpg";
 import aboutMap from "../../Resources/Images/about_map.jpg";
-import ParikshitDeshmukh from "../../Resources/Images/pd.jpg";
-import BhushanKapase from "../../Resources/Images/bk.jpg";
-import AkshayJain from "../../Resources/Images/aj.jpg";
+import ParikshitDeshmukh from "../../Resources/Images/parikshit-techeco.png";
+import BhushanKapase from "../../Resources/Images/bhushan-techeco.png";
+import AkshayJain from "../../Resources/Images/akshay-techeco.png";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import aboutC1 from "../../Resources/Images/about_c1.jpg";
-import aboutC2 from "../../Resources/Images/about_c2.jpg";
-import aboutC3 from "../../Resources/Images/about_c3.jpg";
+import aboutTecheco1 from "../../Resources/Images/techeco-1.jpg";
+import aboutTecheco2 from "../../Resources/Images/techeco-2.jpg";
+import aboutTecheco3 from "../../Resources/Images/techeco-3.jpeg";
 const AboutUs = () => {
     const setting = {
         dots:true,
@@ -65,7 +65,7 @@ const AboutUs = () => {
                                 </Typography>
                             </Fade> 
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",position:"relative",backgroundImage:`url(${aboutHero})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",height:481,mb:5}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",position:"relative",backgroundImage:`url(${aboutTecheco})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",height:481,mb:5}}>
                                 <div style={{backgroundImage:"linear-gradient(to bottom, rgba(14, 81, 86, 0) 59%, #0e5156 100%)",position:"absolute",width:"100%",height:"100%",top:0,left:0,borderRadius:"12px"}}></div>
                             </Box>
                         </Box>    
@@ -205,7 +205,7 @@ const AboutUs = () => {
                                     component="img"
                                     alt="Slider 1"
                                     height="563"
-                                    image={aboutC1}
+                                    image={aboutTecheco1}
                                     sx={{borderRadius:"15px"}}
                                 />
                             </div>
@@ -214,7 +214,7 @@ const AboutUs = () => {
                                     component="img"
                                     alt="Slider 2"
                                     height="563"
-                                    image={aboutC2}
+                                    image={aboutTecheco2}
                                     sx={{borderRadius:"15px"}}
                                 />    
                             </div>
@@ -223,7 +223,7 @@ const AboutUs = () => {
                                     component="img"
                                     alt="Slider 3"
                                     height="563"
-                                    image={aboutC3}
+                                    image={aboutTecheco3}
                                     sx={{borderRadius:"15px"}}
                                 />    
                             </div>
