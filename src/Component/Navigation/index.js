@@ -41,7 +41,7 @@ const Navigation = () => {
                         if(item.public && item.isActive){
                             return(
                                 <NavLink key={item.id} exact to={item.linkTo} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000"}} activeStyle={{color:"#33bc82"}}>
-                                    <Button onClick={handleCloseNavMenu} disableElevation variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"inherit",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},mr:{lg:2}}}>
+                                    <Button onClick={handleCloseNavMenu}  variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"inherit",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},mr:{lg:2}}}>
                                         {item.name}
                                     </Button>
                                 </NavLink>
@@ -51,7 +51,7 @@ const Navigation = () => {
                         if(item.subMenu){
                             return(
                                 <Box key={item.id}>
-                                    <Button onClick={handleDropDown} id="dropdown" aria-controls={open ? 'basic-menu' : undefined} aria-haspopup="true" aria-expanded={open ? 'true' : undefined} disableElevation variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},mr:{lg:2}}} endIcon={ open ? <ExpandLess /> : <ExpandMore />}>
+                                    <Button onClick={handleDropDown} id="dropdown" aria-controls={open ? 'basic-menu' : undefined} aria-haspopup="true" aria-expanded={open ? 'true' : undefined}  variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},mr:{lg:2}}} endIcon={ open ? <ExpandLess /> : <ExpandMore />}>
                                         {item.name}
                                     </Button>
                                     <Menu
@@ -79,7 +79,7 @@ const Navigation = () => {
                             )
                         }else{
                             return(
-                                <Button onClick={handleCloseNavMenu} disableElevation variant="contained" key={item.id} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#FFF",backgroundColor:"#33bc82",textTransform:"capitalize",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82",color:"#FFF"}}} startIcon={<PhoneIcon/>}>
+                                <Button onClick={handleCloseNavMenu}  variant="contained" key={item.id} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#FFF",backgroundColor:"#33bc82",textTransform:"capitalize",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82",color:"#FFF"}}} startIcon={<PhoneIcon/>}>
                                     {item.name}
                                 </Button>
                             )
@@ -93,7 +93,7 @@ const Navigation = () => {
                         if(item.public && item.isActive){
                             return(
                                 <NavLink key={item.id} exact to={item.linkTo} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000"}} activeStyle={{color:"#33bc82"}}>
-                                    <MenuItem onClick={handleCloseNavMenu} disableElevation variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"inherit",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},"&:focus":{backgroundColor:"transparent"},mr:{lg:2}}}>
+                                    <MenuItem onClick={handleCloseNavMenu}  variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"inherit",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},"&:focus":{backgroundColor:"transparent"},mr:{lg:2}}}>
                                         {item.name}
                                     </MenuItem>
                                 </NavLink>
@@ -103,7 +103,7 @@ const Navigation = () => {
                         if(item.subMenu){
                             return(
                                 <Box key={item.id}>
-                                    <Button onClick={handleMobileDropDown} id="mobiledropdown" aria-controls={openMobile ? 'mobile-basic-menu' : undefined} aria-haspopup="true" aria-expanded={openMobile ? 'true' : undefined} disableElevation variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},"&:focus":{backgroundColor:"transparent"},"& span":{position:"relative",left:"62%",top:"1px"},width:"100%",justifyContent:"flex-start",mr:{lg:2},ml:1}} endIcon={ openMobile ? <ExpandLess /> : <ExpandMore />}>
+                                    <Button onClick={handleMobileDropDown} id="mobiledropdown" aria-controls={openMobile ? 'mobile-basic-menu' : undefined} aria-haspopup="true" aria-expanded={openMobile ? 'true' : undefined}  variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},"&:focus":{backgroundColor:"transparent"},"& span":{position:"relative",left:"62%",top:"1px"},width:"100%",justifyContent:"flex-start",mr:{lg:2},ml:1}} endIcon={ openMobile ? <ExpandLess /> : <ExpandMore />}>
                                         {item.name}
                                     </Button>
                                     <Menu
@@ -131,7 +131,7 @@ const Navigation = () => {
                             )
                         }else{
                             return(
-                                <Button onClick={handleCloseNavMenu} disableElevation variant="contained" key={item.id} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#FFF",backgroundColor:"#33bc82",textTransform:"capitalize",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82",color:"#FFF"},"&:focus":{backgroundColor:"#33bc82"}}} startIcon={<PhoneIcon/>} fullWidth>
+                                <Button onClick={handleCloseNavMenu}  variant="contained" key={item.id} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#FFF",backgroundColor:"#33bc82",textTransform:"capitalize",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82",color:"#FFF"},"&:focus":{backgroundColor:"#33bc82"}}} startIcon={<PhoneIcon/>} fullWidth>
                                     {item.name}
                                 </Button>
                             )
