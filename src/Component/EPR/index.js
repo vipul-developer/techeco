@@ -77,14 +77,8 @@ class EPR extends Component {
                                 </Box>
                             </Grid>
                             <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
-                                <Box sx={{pl:5,pr:5}}>
-                                    <CardMedia
-                                        component="img"
-                                        alt="Image 1"
-                                        height="520"
-                                        image={EPRImages1}
-                                        sx={{borderRadius:"12px"}}
-                                    />
+                                <Box sx={{borderRadius:"12px"}}>
+                                    <img alt="EPR" className="img-fluid" src={EPRImages1} style={{borderRadius:"12px"}}/>
                                 </Box>
                             </Grid>
                         </Grid>    

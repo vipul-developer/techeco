@@ -21,7 +21,7 @@ const FormFileds = ({ formdata, change, id }) => {
                             onChange={ (event)=> change({ event, id }) }
                             helperText = { showError() }
                             fullWidth
-                            sx={{marginBottom:"28.5px","&:focus":{outline:"1px solid #000 !important",color:"#0e5156"},fontSize:"16px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156",marginBottom:"12.5px"}}
+                            sx={{"&:focus":{outline:"1px solid #000 !important",color:"#0e5156"},fontSize:"16px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156",marginBottom:"12.5px"}}
                         />
                     </>
                 )
