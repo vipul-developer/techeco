@@ -1,8 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import { Box,Typography,Container,Grid,CardMedia } from "@mui/material";
+import { Box,Grid,CardMedia } from "@mui/material";
 import VideoClip from "../../Resources/Video/With Text.mp4";
-import { Fade } from "react-awesome-reveal";
 const HeroImage = () => {
     return (
         <Box sx={{margin:{md:"97px 0 0",xs:"58px 0 0"},paddingBottom:{md:"49px"}}}>

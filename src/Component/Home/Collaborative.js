@@ -110,7 +110,7 @@ const Collaborative = () => {
                                         <Typography variant="body1" component="div" gutterBottom paragraph sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,flexGrow:0,color:"#0e5156"}}>
                                             It's a great experience working with your team with prompt response to requirements. Something I really appreciate about you is your aptitude for problem-solving.
                                         </Typography>
-                                        <Box sx={{display:"flex",pt:{lg:"67px",md:15,xs:20}}}>
+                                        <Box sx={{display:"flex",pt:{lg:"67px",md:15,xs:10}}}>
                                             <img alt="img" src={ri} height="70px"/>
                                             <Box sx={{mt:2,ml:2}}>
                                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.88,fontWeight:500,flexGrow:0,color:"#000"}}>Rahul Iche<br/>(Hindustan Unilever)</Typography>
@@ -126,7 +126,7 @@ const Collaborative = () => {
                                         <Typography variant="body1" component="div" gutterBottom paragraph sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,flexGrow:0,color:"#0e5156"}}>
                                             The service is smooth and straightforward. My advisor was very helpful. I would recommend dealing directly.
                                         </Typography>
-                                        <Box sx={{display:"flex",pt:{lg:16,md:20,xs:30}}}>
+                                        <Box sx={{display:"flex",pt:{lg:16,md:20,xs:15}}}>
                                             <img alt="img" src={sl} height="70px"/>
                                             <Box sx={{mt:2,ml:2}}>
                                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.88,fontWeight:500,flexGrow:0,color:"#000"}}>Suraj Londhe<br/></Typography>

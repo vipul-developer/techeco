@@ -65,7 +65,7 @@ const AboutUs = () => {
                                 </Typography>
                             </Fade> 
                             </Box>
-                            <Box sx={{display:"flex",borderRadius:"12px",position:"relative",backgroundImage:`url(${aboutTecheco})`,backgroundSize:"cover",backgroundRepeat:"no-repeat",height:481,mb:5}}>
+                            <Box sx={{display:"flex",borderRadius:"12px",position:"relative",backgroundImage:`url(${aboutTecheco})`,backgroundSize:"cover",backgroundPosition:"center",backgroundRepeat:"no-repeat",height:481,mb:5}}>
                                 <div style={{backgroundImage:"linear-gradient(to bottom, rgba(14, 81, 86, 0) 59%, #0e5156 100%)",position:"absolute",width:"100%",height:"100%",top:0,left:0,borderRadius:"12px"}}></div>
                             </Box>
                         </Box>    
