@@ -7,7 +7,7 @@ import EPRImages1 from "../../Resources/Images/epr_img1.jpg";
 import mobile1 from "../../Resources/Images/mobile1.jpg";
 import mobile2 from "../../Resources/Images/mobile2.jpg";
 import mobile3 from "../../Resources/Images/mobile3.jpg";
-import flow from "../../Resources/Images/flow.jpg";
+import processFlow from "../../Resources/Images/techeco-epr-flow.png";
 import Slider from "react-slick";
 import TabsComponent from "./TabsComponent";
 import ContactForm from "../ContactUs/ContactForm";
@@ -205,7 +205,7 @@ class EPR extends Component {
                                     component="img"
                                     alt="Process Flow"
                                     height="509"
-                                    image={flow}
+                                    image={processFlow}
                                 />
                             </Box>    
                         </Container>    

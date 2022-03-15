@@ -5,7 +5,7 @@ import Slider from "react-slick";
 import { Fade } from "react-awesome-reveal";
 import ContactForm from '../ContactUs/ContactForm';
 import aboutTecheco from "../../Resources/Images/about-techeco.jpg";
-import aboutMap from "../../Resources/Images/about_map.jpg";
+import aboutMap from "../../Resources/Images/techeco-map.png";
 import ParikshitDeshmukh from "../../Resources/Images/parikshit-techeco.png";
 import BhushanKapase from "../../Resources/Images/bhushan-techeco.png";
 import AkshayJain from "../../Resources/Images/akshay-techeco.png";
