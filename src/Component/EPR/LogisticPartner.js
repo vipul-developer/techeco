@@ -5,7 +5,7 @@ import { logisticcolumns,logisticPartner } from "../../Misc/EPR/Data";
 const LogisticPartner = () => {
     return (
         <>
-            <Box sx={{borderRadius:"12px",height:"400px"}}>
+            <Box sx={{borderRadius:"12px",height:"400px",width:"100%",mt:2,mb:2}}>
                 <DataGrid
                     rows={logisticPartner}
                     columns={logisticcolumns}

@@ -172,7 +172,7 @@ class TabsComponent extends Component {
                                 </Tabs>    
                             </Box>
                             <TabPanel value={this.state.activeTabIndex} index={0}>
-                                <Box component="form" noValidate autoComplete="off" onSubmit={(event) => {this.submitFrom(event)}} sx={{pl:{md:5}}}>
+                                <Box component="form" noValidate autoComplete="off" onSubmit={(event) => {this.submitFrom(event)}} sx={{mt:2}}>
                                     <Grid container item xs={12} spacing={3}>
                                         <Grid item xl={5} lg={5} md={5} sm={5} xs={12}>
                                             <FormFileds
@@ -193,7 +193,7 @@ class TabsComponent extends Component {
                                         </Grid>    
                                     </Grid>
                                 </Box>
-                                <Box sx={{borderRadius:"12px",height:"180px",textAlign:"center"}}>
+                                <Box sx={{borderRadius:"12px",height:"180px",textAlign:"center",width:"100%",mt:2,mb:2}}>
                                     {this.renderTable(this.state.data)}
                                 </Box> 
                             </TabPanel>
