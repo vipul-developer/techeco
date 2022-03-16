@@ -52,8 +52,8 @@ const MakeWaste = () => {
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12} sx={{mt:{xs:2},mb:{xs:5}}}>
                             <Box sx={{margin:{lg:"103px 0 355px 107.2px"},}}>
-                                <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"16px"},lineHeight:{md:1.88},letterSpacing:"normal",fontFamily:"Montserrat",fontWeight:"normal"}}>
-                                    On scheduling your e-waste pickup through our call <br/>centre, we will ensure a timely pick up from your site <br/>to our R2 certified recycling plant to ensure a complete <br/>end to life solution of your e-waste disposal. The reverse <br/>logistics is managed by our own fleet of vehicles and <br/>channel partners from nation-wide locations.
+                                <Typography variant="body" component="p" gutterBottom paragraph sx={{fontSize:{md:"16px"},lineHeight:{md:1.88},letterSpacing:"normal",fontFamily:"Montserrat",fontWeight:"normal"}}>
+                                    The “Zero Waste living” motto takes centre stage @Techeco. At its most basic level, the goal of zero waste living is to push economies towards the target of sending no waste to landfill, incinerators, and the ocean. The “Reduce, Reuse &amp; Recycle” approach to production and consumption, encourages a more circular approach to the way we use resources and is the first step towards Zero Waste living.
                                 </Typography>
                             </Box>
                         </Grid>
