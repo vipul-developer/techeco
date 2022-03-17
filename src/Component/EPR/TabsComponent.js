@@ -18,7 +18,7 @@ function TabPanel(props) {
         {...other}
       >
         {value === index && (
-          <Box sx={{p:5}}>
+          <Box>
             {children}
           </Box>
         )}
@@ -158,10 +158,10 @@ class TabsComponent extends Component {
     render() {
         return (
             <>
-                <Grid container>
+                <Grid container sx={{mb:8}}>
                     <Container fixed>
                         <Box sx={{width:"100%"}}>
-                            <Box sx={{display:"flex",justifyContent:"center",alignItems:"center"}}>
+                            <Box sx={{width:"100%",display:"flex",justifyContent:"center",alignItems:"center"}}>
                                 <Tabs value={this.state.activeTabIndex} onChange={(event, value) => {this.handleChange(value)}} variant="scrollable" allowScrollButtonsMobile scrollButtons="auto" sx={{"& .Mui-selected":{color:"#33bc82 !important",fontWeight:"bold"},"& .MuiTabs-indicator":{backgroundColor:"#33bc82 !important"},"& .MuiTab-root":{fontFamily:"Montserrat",fontSize:{md:"20px"},color:"#0e5156",textTransform:"capitalize",pl:4,pr:4}}}>
                                     <Tab label="Collection Centres list" {...a11yProps(0)}/>
                                     <Tab label="Logistic partners" {...a11yProps(1)}/>

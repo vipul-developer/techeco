@@ -42,42 +42,42 @@ const AutomobileWaste = () => {
                             <Box sx={{width:"100%",backgroundColor:"#effaf5",borderRadius:"12px",border:"0.5px solid #effaf5",p:5}}>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        PRO Services 
+                                        Vehicle Collection and Transportation 
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We oﬀer Producer Responsibility Organization (PRO) services for electronic producers to meet their EPR targets 
+                                        End of vehicles are collected from owners and aggregators and taken to the recycling plant.
                                     </Typography>
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Data Destruction 
+                                        Dismantling and Segregation 
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We use a wide range of data erasing, sanitation and destruction services that meet the latest protection standards to eliminate the potential security risks 
+                                        Segregate hazardous waste such as battery, fuel, other fluids, airbags and any parts containing mercury are de-polluted. 
                                     </Typography>
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Asset Refurbishment  
+                                        Shredding  
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        It is our endeavor to refurbish and repair the electronics, which require repair. We aim at increasing the asset's life. 
+                                        The vehicle is shredded leading to the production of ferrous and non-ferrous metals. 
                                     </Typography>
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Responsible Recyling   
+                                        Recycled Material Extracted   
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        Accountability and transparency form the foundation of a solid business partnership. We provide deﬁned and tracked processes and complete documentation of disposal. 
+                                        We have collaborations with registered and authorised recyclers who further help us in the environmental management of ELVs 
                                     </Typography>
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Reverse Logistics   
+                                        Safe and Environmentally demolition   
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We have established a widespread presence across India to deliver a customized Reverse Logistics service which collects e-waste from the customer’s doorstep and transports it directly to our facility. We ensure this collection transported safely, securely and responsibly through our channels. 
+                                        We assure environmentally sound management of ELVs. 
                                     </Typography>
                                 </Box>
                             </Box>

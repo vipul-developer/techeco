@@ -42,42 +42,24 @@ const RubberWaste = () => {
                             <Box sx={{width:"100%",backgroundColor:"#effaf5",borderRadius:"12px",border:"0.5px solid #effaf5",p:5}}>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        PRO Services 
+                                        We can mention- Worldwide information- 
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We oﬀer Producer Responsibility Organization (PRO) services for electronic producers to meet their EPR targets 
+                                        Every year, over one billion tyres are manufactured worldwide, and an equal number of tyres are permanently removed from vehicles, becoming waste.<br/>
+                                        The U.S. is the largest producer of waste tyres, about 290 million a year, although increases in new vehicles sales in China and India are rapidly contributing to waste tyre volumes.<br/>
+                                        Although modern tyres are fundamentally rubber products, they are a complex mix of natural and synthetic rubbers, and various structural reinforcing elements including metals and chemical additives.<br/>
+                                        This complexity has led to stockpiling, dumping and diversion to landfill. This has exposed communities to environmental and health risks and has squandered valuable resources locked up in tyre dumps.<br/>
                                     </Typography>
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Data Destruction 
+                                        Or For India-  
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We use a wide range of data erasing, sanitation and destruction services that meet the latest protection standards to eliminate the potential security risks 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Asset Refurbishment  
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        It is our endeavor to refurbish and repair the electronics, which require repair. We aim at increasing the asset's life. 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Responsible Recyling   
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        Accountability and transparency form the foundation of a solid business partnership. We provide deﬁned and tracked processes and complete documentation of disposal. 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Reverse Logistics   
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We have established a widespread presence across India to deliver a customized Reverse Logistics service which collects e-waste from the customer’s doorstep and transports it directly to our facility. We ensure this collection transported safely, securely and responsibly through our channels. 
+                                        India’s waste tyres account for about 6-7% of the global total. With the local tyre industry growing at 12% per annum, waste volumes are rising.<br/>
+                                        India has been recycling and reusing waste tyres for four decades, although it is estimated that 60% are disposed of through illegal dumping.<br/>
+                                        Despite this, India is the second largest producer of reclaimed rubber after China. In 2011, India produced 90,000 metric tonnes of reclaimed rubber from waste tyres.<br/>
+                                        By 2016, some 100,000 kms of Indian roads had been laid with asphalt blended with recycled rubber, and over 500 000 tonnes of crumb rubber modified bitumen (CRMB) is used annually in road construction. New regulations introduced in 2016 allow for import of waste tyres for recycling.<br/>
                                     </Typography>
                                 </Box>
                             </Box>

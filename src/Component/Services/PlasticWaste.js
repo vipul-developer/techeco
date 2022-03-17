@@ -41,43 +41,31 @@ const PlasticWaste = () => {
                         <Grid item xl={9} lg={9} md={9} sm={9} xs={12}>
                             <Box sx={{width:"100%",backgroundColor:"#effaf5",borderRadius:"12px",border:"0.5px solid #effaf5",p:5}}>
                                 <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        PRO Services 
-                                    </Typography>
+                                    {/* <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
+                                        Plastic Waste
+                                    </Typography> */}
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We oﬀer Producer Responsibility Organization (PRO) services for electronic producers to meet their EPR targets 
+                                        The Centre said that more than 34 lakh tons of plastic waste was generated in 2019-20 and 30.59 lakh tons in 2018-19. New Delhi: India's plastic waste generation has more than doubled in the last five years with an average annual increase of 21.8 per cent. 
+                                    </Typography>
+                                </Box>
+                                <Box sx={{mb:3}}>
+                                    {/* <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
+                                        Plastic Waste 
+                                    </Typography> */}
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        According to data shared by the minister, in the last five years, the quantity of plastic waste in the country has more than doubled, as the country produced 15.89 lakh tons of plastic waste in 2015-16.
                                     </Typography>
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Data Destruction 
+                                        Stages of EPR Fulfilment  
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We use a wide range of data erasing, sanitation and destruction services that meet the latest protection standards to eliminate the potential security risks 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Asset Refurbishment  
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        It is our endeavor to refurbish and repair the electronics, which require repair. We aim at increasing the asset's life. 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Responsible Recyling   
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        Accountability and transparency form the foundation of a solid business partnership. We provide deﬁned and tracked processes and complete documentation of disposal. 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Reverse Logistics   
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We have established a widespread presence across India to deliver a customized Reverse Logistics service which collects e-waste from the customer’s doorstep and transports it directly to our facility. We ensure this collection transported safely, securely and responsibly through our channels. 
+                                        Step 1: Set your targets.<br/>
+                                        Step 2: Choose your ULB and Disposal partners. Prepare an action plan as per PWM format.<br/>
+                                        Step 3: Collection, Transportation,Recycling/ Coprocessing.<br/>
+                                        Step 4: Half Yearly Return Filing.<br/>
+                                        Step 5: Annual Return Filing.<br/>
                                     </Typography>
                                 </Box>
                             </Box>

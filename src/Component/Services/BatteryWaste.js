@@ -58,26 +58,10 @@ const BatteryWaste = () => {
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Asset Refurbishment  
+                                        Logistic Management  
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        It is our endeavor to refurbish and repair the electronics, which require repair. We aim at increasing the asset's life. 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Responsible Recyling   
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        Accountability and transparency form the foundation of a solid business partnership. We provide deﬁned and tracked processes and complete documentation of disposal. 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Reverse Logistics   
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We have established a widespread presence across India to deliver a customized Reverse Logistics service which collects e-waste from the customer’s doorstep and transports it directly to our facility. We ensure this collection transported safely, securely and responsibly through our channels. 
+                                        Reliable network of logistics partners to support transporting batteries from PAN India 
                                     </Typography>
                                 </Box>
                             </Box>

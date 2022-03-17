@@ -41,43 +41,20 @@ const GlassWaste = () => {
                         <Grid item xl={9} lg={9} md={9} sm={9} xs={12}>
                             <Box sx={{width:"100%",backgroundColor:"#effaf5",borderRadius:"12px",border:"0.5px solid #effaf5",p:5}}>
                                 <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        PRO Services 
-                                    </Typography>
+                                    {/* <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
+                                        Glass Waste
+                                    </Typography> */}
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We oﬀer Producer Responsibility Organization (PRO) services for electronic producers to meet their EPR targets 
+                                        Approximately only 45% glass waste gets recycled in India every year.
+                                        EPA measures the generation, recycling, composting, combustion with energy recovery and landfilling of glass materials. 
                                     </Typography>
                                 </Box>
                                 <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Data Destruction 
-                                    </Typography>
+                                    {/* <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
+                                        Glass Waste 
+                                    </Typography> */}
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We use a wide range of data erasing, sanitation and destruction services that meet the latest protection standards to eliminate the potential security risks 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Asset Refurbishment  
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        It is our endeavor to refurbish and repair the electronics, which require repair. We aim at increasing the asset's life. 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Responsible Recyling   
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        Accountability and transparency form the foundation of a solid business partnership. We provide deﬁned and tracked processes and complete documentation of disposal. 
-                                    </Typography>
-                                </Box>
-                                <Box sx={{mb:3}}>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Reverse Logistics   
-                                    </Typography>
-                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        We have established a widespread presence across India to deliver a customized Reverse Logistics service which collects e-waste from the customer’s doorstep and transports it directly to our facility. We ensure this collection transported safely, securely and responsibly through our channels. 
+                                        EPA used statistics from the Glass Packaging Institute’s numbers on glass container shipment to estimate glass container generation. In 2018, glass generation in all products was 3 million tons in India. 
                                     </Typography>
                                 </Box>
                             </Box>
