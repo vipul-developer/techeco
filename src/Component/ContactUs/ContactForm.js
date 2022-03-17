@@ -19,7 +19,7 @@ class ContactForm extends Component {
                     variant:"outlined",
                 },
                 validation: {
-                    required: true,
+                    required: false,
                     email: false
                 },
                 valid: false,
@@ -38,7 +38,7 @@ class ContactForm extends Component {
                     variant:"outlined",
                 },
                 validation: {
-                    required: true,
+                    required: false,
                     email: true
                 },
                 valid: false,
@@ -57,7 +57,7 @@ class ContactForm extends Component {
                     variant:"outlined",
                 },
                 validation: {
-                    required: true,
+                    required: false,
                     email: false
                 },
                 valid: false,
@@ -76,7 +76,7 @@ class ContactForm extends Component {
                     variant:"outlined",
                 },
                 validation: {
-                    required: true,
+                    required: false,
                     email: false
                 },
                 valid: false,

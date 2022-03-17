@@ -79,7 +79,7 @@ const Navigation = () => {
                             )
                         }else{
                             return(
-                                <Button onClick={handleCloseNavMenu}  variant="contained" key={item.id} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#FFF",backgroundColor:"#33bc82",textTransform:"capitalize",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82",color:"#FFF"}}} startIcon={<PhoneIcon/>}>
+                                <Button onClick={handleCloseNavMenu} disabled variant="contained" key={item.id} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#FFF !important",backgroundColor:"#33bc82 !important",textTransform:"capitalize",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82 !important",color:"#FFF !important"}}} startIcon={<PhoneIcon/>}>
                                     {item.name}
                                 </Button>
                             )
@@ -131,7 +131,7 @@ const Navigation = () => {
                             )
                         }else{
                             return(
-                                <Button onClick={handleCloseNavMenu}  variant="contained" key={item.id} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#FFF",backgroundColor:"#33bc82",textTransform:"capitalize",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82",color:"#FFF"},"&:focus":{backgroundColor:"#33bc82"}}} startIcon={<PhoneIcon/>} fullWidth>
+                                <Button onClick={handleCloseNavMenu} disabled variant="contained" key={item.id} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#FFF !important",backgroundColor:"#33bc82 !important",textTransform:"capitalize",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82 !important",color:"#FFF !important"},"&:focus":{backgroundColor:"#33bc82"}}} startIcon={<PhoneIcon/>} fullWidth>
                                     {item.name}
                                 </Button>
                             )

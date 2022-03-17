@@ -28,7 +28,7 @@ const OurService = () => {
                     <Grid container item xl={12} lg={12} md={12} sm={12} xs={12} spacing={4}>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Link to={"/techeco/services/e_waste"}>
-                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
+                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,borderRadius:"12px"}}>
                                     <CardHeader
                                         avatar={<img alt="e-waste" src={eWaste}/>}
                                         title="E-Waste"
@@ -45,7 +45,7 @@ const OurService = () => {
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Link to={"/techeco/services/battery_waste"}>
-                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,pb:"58px"}}>
+                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,pb:"58px",borderRadius:"12px"}}>
                                     <CardHeader
                                         avatar={<img alt="e-waste" src={batteryWaste}/>}
                                         title="Battery Waste"
@@ -62,7 +62,7 @@ const OurService = () => {
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Link to={"/techeco/services/plastic_waste"}>
-                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
+                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,borderRadius:"12px"}}>
                                     <CardHeader
                                         avatar={<img alt="e-waste" src={plasticWaste}/>}
                                         title="Plastic Waste"
@@ -79,7 +79,7 @@ const OurService = () => {
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Link to={"/techeco/services/automobile_waste"}>
-                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,pb:"39px"}}>
+                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,pb:"39px",borderRadius:"12px"}}>
                                     <CardHeader
                                         avatar={<img alt="e-waste" src={autoWaste}/>}
                                         title="Automobile Waste"
@@ -96,7 +96,7 @@ const OurService = () => {
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Link to={"/techeco/services/glass_waste"}>
-                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
+                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,borderRadius:"12px"}}>
                                     <CardHeader
                                         avatar={<img alt="e-waste" src={glassWaste}/>}
                                         title="Glass Waste"
@@ -113,7 +113,7 @@ const OurService = () => {
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Link to={"/techeco/services/rubber_waste"}>
-                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0}}>
+                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,borderRadius:"12px"}}>
                                     <CardHeader
                                         avatar={<img alt="e-waste" src={rubberWaste}/>}
                                         title="Rubber Waste"

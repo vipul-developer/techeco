@@ -50,7 +50,7 @@ const Collaborative = () => {
             <Grid container sx={{mb:5}}>
                 <Grid item xs={12} sx={{overflow:"hidden",pb:5}}>
                     <Container fixed>
-                        <Box sx={{textAlign:"center",margin:"85px 0px"}}>
+                        <Box sx={{textAlign:"center",margin:"35px 0px"}}>
                             <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"30px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:600,color:"#33bc82"}}>Change is collaborative. hear from our collective</Typography>
                             <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"24px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:500,color:"#0e5156"}}>join pioneers who are leading the movement</Typography>
                         </Box>
@@ -58,7 +58,7 @@ const Collaborative = () => {
                             <Box sx={{p:{md:3,xs:1},}}>
                                 <Box sx={{boxShadow:"none",border:"1px solid rgba(0, 0, 0, 0.2)",borderRadius:"12px"}}>
                                     <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#33bc82",position:"relative",top:0,borderRadius:"6px 6px 0 0"}}/>
-                                    <Box sx={{mt:3,padding:{md:"32.5px 29.5px 17.3px 53.9px",xs:"20px"}}}>
+                                    <Box sx={{mt:1,mb:1,padding:{md:"22px 29.5px 17.3px 53.9px",xs:"20px"}}}>
                                         <Typography variant="body1" component="div" gutterBottom paragraph sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,flexGrow:0,color:"#0e5156"}}>
                                             We were provided excellent customer service for Disposal of E-Waste by Techeco Waste Management LLP.  All responses were prompt and professional. The E-waste Collection service from Customer End and Disposal at their Plant was properly monitored and informed which gives peace of mind to Customer.
                                         </Typography>
@@ -74,7 +74,7 @@ const Collaborative = () => {
                             <Box sx={{p:{md:3,xs:"12.5px"},}}>
                                 <Box sx={{boxShadow:"none",border:"1px solid rgba(0, 0, 0, 0.2)",borderRadius:"12px"}}>
                                     <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#0e5156",position:"relative",top:0,borderRadius:"6px 6px 0 0"}}/>
-                                    <Box sx={{mt:3,padding:{md:"32.5px 29.5px 17.3px 53.9px",xs:"20px"}}}>
+                                    <Box sx={{mt:1,mb:1,padding:{md:"22px 29.5px 17.3px 53.9px",xs:"20px"}}}>
                                         <Typography variant="body1" component="div" gutterBottom paragraph sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,flexGrow:0,color:"#0e5156"}}>
                                             Services provided are good and very satisfactory. We would really like to continue working with you in the coming future also. I think you did a great job when you ran the all-hands meeting. It showed that you are capable of getting people to work together and communicate effectively. I admire your communication skills.
                                         </Typography>
@@ -90,7 +90,7 @@ const Collaborative = () => {
                             <Box sx={{p:{md:3,xs:1},}}>
                                 <Box sx={{boxShadow:"none",border:"1px solid rgba(0, 0, 0, 0.2)",borderRadius:"12px"}}>
                                     <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#33bc82",position:"relative",top:0,borderRadius:"6px 6px 0 0"}}/>
-                                    <Box sx={{mt:3,padding:{md:"32.5px 29.5px 17.3px 53.9px",xs:"20px"}}}>
+                                    <Box sx={{mt:1,mb:1,padding:{md:"22px 29.5px 17.3px 53.9px",xs:"20px"}}}>
                                         <Typography variant="body1" component="div" gutterBottom paragraph sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,flexGrow:0,color:"#0e5156"}}>
                                             Techeco E-Waste Management is a fantastic organisation. Great customer support from start to end of the process. They have all the authorised certification regarding service. Great valuation for your goods, timely pickup and on-time payment are their key points. The team are really informed and go the extra mile at every stage.
                                         </Typography>
@@ -106,7 +106,7 @@ const Collaborative = () => {
                             <Box sx={{p:{md:3,xs:1},}}>
                                 <Box sx={{boxShadow:"none",border:"1px solid rgba(0, 0, 0, 0.2)",borderRadius:"12px"}}>
                                     <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#0e5156",position:"relative",top:0,borderRadius:"6px 6px 0 0"}}/>
-                                    <Box sx={{mt:3,padding:{md:"32.5px 29.5px 17.3px 53.9px",xs:"20px"}}}>
+                                    <Box sx={{mt:1,mb:1,padding:{md:"22px 29.5px 17.3px 53.9px",xs:"20px"}}}>
                                         <Typography variant="body1" component="div" gutterBottom paragraph sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,flexGrow:0,color:"#0e5156"}}>
                                             It's a great experience working with your team with prompt response to requirements. Something I really appreciate about you is your aptitude for problem-solving.
                                         </Typography>
@@ -122,7 +122,7 @@ const Collaborative = () => {
                             <Box sx={{p:{md:3,xs:1},}}>
                                 <Box sx={{boxShadow:"none",border:"1px solid rgba(0, 0, 0, 0.2)",borderRadius:"12px"}}>
                                     <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#33bc82",position:"relative",top:0,borderRadius:"6px 6px 0 0"}}/>
-                                    <Box sx={{mt:3,padding:{md:"32.5px 29.5px 17.3px 53.9px",xs:"20px"}}}>
+                                    <Box sx={{mt:1,mb:1,padding:{md:"22px 29.5px 17.3px 53.9px",xs:"20px"}}}>
                                         <Typography variant="body1" component="div" gutterBottom paragraph sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,flexGrow:0,color:"#0e5156"}}>
                                             The service is smooth and straightforward. My advisor was very helpful. I would recommend dealing directly.
                                         </Typography>

@@ -4,7 +4,7 @@ import { Box,Grid,Container,Typography,CardMedia } from "@mui/material";
 import Slider from "react-slick";
 import { Fade } from "react-awesome-reveal";
 import ContactForm from '../ContactUs/ContactForm';
-import aboutTecheco from "../../Resources/Images/about-techeco.jpg";
+import aboutTecheco from "../../Resources/Images/about-techeco.png";
 import aboutMap from "../../Resources/Images/techeco-map.png";
 import ParikshitDeshmukh from "../../Resources/Images/parikshit-techeco.png";
 import BhushanKapase from "../../Resources/Images/bhushan-techeco.png";
@@ -16,6 +16,9 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import aboutTecheco1 from "../../Resources/Images/techeco-1.jpg";
 import aboutTecheco2 from "../../Resources/Images/techeco-2.jpg";
 import aboutTecheco3 from "../../Resources/Images/techeco-3.jpeg";
+import aboutTecheco4 from "../../Resources/Images/techeco-4.jpg";
+import aboutTecheco5 from "../../Resources/Images/techeco-5.jpg";
+import aboutTecheco6 from "../../Resources/Images/techeco-6.jpg";
 const AboutUs = () => {
     const setting = {
         dots:true,
@@ -224,6 +227,33 @@ const AboutUs = () => {
                                     alt="Slider 3"
                                     height="563"
                                     image={aboutTecheco3}
+                                    sx={{borderRadius:"15px"}}
+                                />    
+                            </div>
+                            <div style={{borderRadius:"15px"}}>
+                                <CardMedia
+                                    component="img"
+                                    alt="Slider 4"
+                                    height="563"
+                                    image={aboutTecheco4}
+                                    sx={{borderRadius:"15px"}}
+                                />    
+                            </div>
+                            <div style={{borderRadius:"15px"}}>
+                                <CardMedia
+                                    component="img"
+                                    alt="Slider 5"
+                                    height="563"
+                                    image={aboutTecheco5}
+                                    sx={{borderRadius:"15px"}}
+                                />    
+                            </div>
+                            <div style={{borderRadius:"15px"}}>
+                                <CardMedia
+                                    component="img"
+                                    alt="Slider 6"
+                                    height="563"
+                                    image={aboutTecheco6}
                                     sx={{borderRadius:"15px"}}
                                 />    
                             </div>

@@ -110,6 +110,11 @@ class TabsComponent extends Component {
             }
         }
     }
+    componentDidMount(){
+        this.setState({
+            data:collectionCenter
+        })
+    }
     handleChange = (value) => {
         this.setState({
             activeTabIndex: value
@@ -139,23 +144,16 @@ class TabsComponent extends Component {
         })
     }
     renderTable = (data=[]) => {
-        if(data.length > 0){
-            return(
-                <DataGrid
-                    rows={data}
-                    columns={collectioncolumns}
-                    pageSize={1}
-                    rowsPerPageOptions={[1]}
-                    disableSelectionOnClick
-                    sx={{"& .MuiDataGrid-renderingZone":{maxHeight: "none !important"},"& .MuiDataGrid-cell":{lineHeight: "unset !important",maxHeight: "none !important",whiteSpace: "normal"},"& .MuiDataGrid-row":{maxHeight: "none !important"},}}
-                />
-            )
-        }else{
-            return(
-                <Typography variant="h6" component="div" gutterBottom color="error.main">Data Not Found Please Select State And City !</Typography>
-            )
-        }
-
+        return (
+            <DataGrid
+                rows={data}
+                columns={collectioncolumns}
+                pageSize={5}
+                rowsPerPageOptions={[5]}
+                disableSelectionOnClick
+                sx={{"& .MuiDataGrid-renderingZone":{maxHeight: "none !important"},"& .MuiDataGrid-cell":{lineHeight: "unset !important",maxHeight: "none !important",whiteSpace: "normal"},"& .MuiDataGrid-row":{maxHeight: "none !important"},}}
+            />
+        )
     }
     render() {
         return (
@@ -193,7 +191,7 @@ class TabsComponent extends Component {
                                         </Grid>    
                                     </Grid>
                                 </Box>
-                                <Box sx={{borderRadius:"12px",height:"180px",textAlign:"center",width:"100%",mt:2,mb:2}}>
+                                <Box sx={{borderRadius:"12px",height:"380px",textAlign:"center",width:"100%",mt:2,mb:2}}>
                                     {this.renderTable(this.state.data)}
                                 </Box> 
                             </TabPanel>

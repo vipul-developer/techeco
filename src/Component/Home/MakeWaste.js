@@ -23,7 +23,7 @@ const MakeWaste = () => {
                 <Container fixed>
                     <Grid container item xl={12} lg={12} md={12} sm={12} xs={12}>
                         <Grid item xl={3} lg={3} md={3} sm={3} xs={12}>
-                            <Card sx={{minWidth:{lg:"328.5px",md:"240px",xs:"200px"},borderRadius:"12px",mb:{xs:2}}}>
+                            <Card sx={{minWidth:{lg:"328.5px",md:"240px",xs:"200px"},borderRadius:"12px",mb:{xs:2},boxShadow:"none"}}>
                                 <CardMedia
                                     component="img"
                                     height="503"
@@ -33,7 +33,7 @@ const MakeWaste = () => {
                             </Card>
                         </Grid>
                         <Grid item xl={3} lg={3} md={3} sm={3} xs={12}>
-                            <Card sx={{minWidth:{lg:"328.5px",md:"240px",xs:"200px"},background:" linear-gradient(90deg, rgba(14,81,86,1) 0%, rgba(51,188,130,1) 50%)",margin:{md:"0 0 0 50px",xs:"0 0 15px 0"},borderRadius:"12px"}}>
+                            <Card sx={{minWidth:{lg:"328.5px",md:"240px",xs:"200px"},background:" linear-gradient(90deg, rgba(14,81,86,1) 0%, rgba(51,188,130,1) 50%)",margin:{md:"0 0 0 50px",xs:"0 0 15px 0"},borderRadius:"12px",boxShadow:"none"}}>
                                 <CardContent sx={{p:0}}>
                                     <Box sx={{padding:"38.3px 30.1px 30.8px 30.8px",color:"#FFF"}}>
                                         <Typography variant="body" component="p" gutterBottom sx={{margin:"0 0 1.5px",fontSize:{md:"18px"},fontWeight:500,textAlign:"justify"}}>India generates close to</Typography>
@@ -42,7 +42,7 @@ const MakeWaste = () => {
                                     </Box>
                                 </CardContent>
                             </Card>
-                            <Card sx={{minWidth:{lg:"328.5px",md:"240px",xs:"200px"},background:" linear-gradient(90deg, rgba(14,81,86,1) 0%, rgba(51,188,130,1) 50%)",margin:{md:"15px 0 0 50px"},borderRadius:"12px"}}>
+                            <Card sx={{minWidth:{lg:"328.5px",md:"240px",xs:"200px"},background:" linear-gradient(90deg, rgba(14,81,86,1) 0%, rgba(51,188,130,1) 50%)",margin:{md:"15px 0 0 50px"},borderRadius:"12px",boxShadow:"none"}}>
                                 <CardContent sx={{p:0}}>
                                     <Box sx={{padding:"81.9px 30.1px 48.9px 30.8px",color:"#FFF"}}>
                                         <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"18px"},fontWeight:500,textAlign:"justify"}}>Techeco’s mission is urgent and ambitious. we want to make recycling a way of life for a billion people.</Typography>
