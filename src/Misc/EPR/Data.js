@@ -39,7 +39,9 @@ export const logisticcolumns = [
     {field:'contact',headerName:'Contact',width:210,editable: false},
 ];
 export const logisticPartner = [
-    {"id":"01","name":"Aero Express Cargo & Logistic","address":"Mumbai","contact":"Shubham Shukla"}
+    {"id":"01","name":"Aero Express Cargo & Logistic","address":"Mumbai","contact":"Shubham Shukla"},
+    {"id":"02","name":"Shree Ganesh Road Carriers","address":"","contact":""},
+    {"id":"03","name":"Shree Balaji Transport Co","address":"","contact":""}
 ];
 export const cpcbcolumns = [
     {field:'id',headerName:'SR',width:90 },
@@ -50,5 +52,4 @@ export const cpcbPartner = [
     {"id":"01","name":"SOP","action":"Download"},
     {"id":"02","name":"Notice to All Producers of Electrical and Electronic Equipment (EEE) under E- Waste (Management) Rules, 2016","action":"Download"},
 ]
-
 

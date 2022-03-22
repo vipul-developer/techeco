@@ -30,7 +30,7 @@ const Navigation = () => {
         setAnchorElMobile(event.currentTarget);
     };
     const handleMobileCloseDropDown = () => {
-        setAnchorElMobile(null)
+        setAnchorElMobile(null);
     }
     const renderMenu = (list,type) => {
         let menuTemplate = null;
@@ -111,7 +111,7 @@ const Navigation = () => {
                                         anchorEl={anchorElMobile}
                                         open={openMobile}
                                         keepMounted
-                                        onClose={handleMobileCloseDropDown}
+                                        onClose={handleCloseDropDown}
                                         anchorOrigin={{vertical:"top",horizontal:"left"}}
                                         transformOrigin={{vertical:"top",horizontal:"left"}}
                                         sx={{mt:"40px","& .MuiPaper-elevation":{width:"80%",p:0,borderRadius:0},boxShadow:"none"}}
@@ -122,7 +122,7 @@ const Navigation = () => {
                                         {
                                             item.subMenu.map((submenu,index) => (
                                                 <NavLink key={submenu.id} exact to={submenu.linkTo} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000"}} activeStyle={{color:"#33bc82"}}>
-                                                    <MenuItem onClick={handleCloseDropDown} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},"&:focus":{backgroundColor:"transparent"}}}>{submenu.name}</MenuItem>
+                                                    <MenuItem onClick={handleMobileCloseDropDown} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},"&:focus":{backgroundColor:"transparent"}}}>{submenu.name}</MenuItem>
                                                 </NavLink>
                                             ))
                                         }

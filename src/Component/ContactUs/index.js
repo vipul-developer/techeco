@@ -30,7 +30,7 @@ const ContactUs = () => {
                     <Grid container item xs={12}>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Box sx={{padding:"39px 20px 39px 20px"}}>
-                                <Box sx={{border:"solid 0.5px rgba(0, 0, 0, 0.2)",borderRadius:"12px",p:3}}>
+                                <Box sx={{border:"solid 0.5px rgba(0, 0, 0, 0.2)",borderRadius:"12px",p:3,minHeight:"342px"}}>
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:"bold",fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
                                         Techeco Waste Management LLP
                                     </Typography>
@@ -48,13 +48,16 @@ const ContactUs = () => {
                                         Gut no. 155 B/2, Village: Dhakambe, Tal: Dindori, Dist: Nashik
                                         Maharashtra, India.
                                     </Typography>
+                                    <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
+                                        recycle@techeco.co.in
+                                    </Typography>
                                 </Box>
                             </Box>
                         </Grid>  
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Box sx={{padding:"39px 20px 39px 20px"}}>
-                                <Box sx={{border:"solid 0.5px rgba(0, 0, 0, 0.2)",borderRadius:"12px",p:3}}>
-                                    <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"16px",fontWeight:"bold",fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
+                                <Box sx={{border:"solid 0.5px rgba(0, 0, 0, 0.2)",borderRadius:"12px",p:3,textAlign:"center",minHeight:"342px"}}>
+                                    {/* <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"16px",fontWeight:"bold",fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
                                         Accounts
                                     </Typography>
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
@@ -72,14 +75,17 @@ const ContactUs = () => {
                                     </Typography>
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
                                         Sidharth K : +91 9988776655  |   marketing@techeco.co.in
-                                    </Typography>
+                                    </Typography> */}
+                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,lineHeight:0.94,color:"#0e5156",fontFamily:"Montserrat",mt:4}}>Schedule your pickup</Typography>
+                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:600,lineHeight:2.25,color:"#0e5156",fontFamily:"Montserrat"}}>Call us on our toll free number</Typography>
+                                    <Button variant='contained' disableElevation startIcon={<PhoneIcon size="large"/>} size="large" sx={{fontFamily:"Montserrat",fontSize:{md:"36px"},fontWeight:"bold",lineHeight:0.72,padding:{md:"23px 31px 19px 35px"},backgroundColor:"#33bc82",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82"},}}>1800-889-3121</Button>
                                 </Box>
                             </Box>    
                         </Grid>  
                     </Grid>    
                 </Container>    
             </Grid>
-            <Grid container sx={{mb:"88px"}}>
+            {/* <Grid container sx={{mb:"88px"}}>
                 <Grid item xs={12}>
                     <Container fixed>
                         <Box sx={{pt:3,textAlign:"center"}}>
@@ -89,7 +95,7 @@ const ContactUs = () => {
                         </Box>
                     </Container>  
                 </Grid>    
-            </Grid>
+            </Grid> */}
             <GoogleMaps/>
             <ContactForm/>
         </>
