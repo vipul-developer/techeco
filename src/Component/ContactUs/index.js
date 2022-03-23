@@ -49,7 +49,7 @@ const ContactUs = () => {
                                         Maharashtra, India.
                                     </Typography>
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
-                                        recycle@techeco.co.in
+                                        <b>Email :- </b> recycle@techeco.co.in
                                     </Typography>
                                 </Box>
                             </Box>
@@ -78,7 +78,7 @@ const ContactUs = () => {
                                     </Typography> */}
                                     <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,lineHeight:0.94,color:"#0e5156",fontFamily:"Montserrat",mt:4}}>Schedule your pickup</Typography>
                                     <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:600,lineHeight:2.25,color:"#0e5156",fontFamily:"Montserrat"}}>Call us on our toll free number</Typography>
-                                    <Button variant='contained' disableElevation startIcon={<PhoneIcon size="large"/>} size="large" sx={{fontFamily:"Montserrat",fontSize:{md:"36px"},fontWeight:"bold",lineHeight:0.72,padding:{md:"23px 31px 19px 35px"},backgroundColor:"#33bc82",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82"},}}>1800-889-3121</Button>
+                                    <Button variant='contained' disabled disableElevation startIcon={<PhoneIcon size="large"/>} sx={{mb:3,fontFamily:"Montserrat",fontSize:{md:"28px"},fontWeight:"bold",lineHeight:0.93,padding:{md:"18px 21px 18px 21px"},backgroundColor:"#33bc82 !important",color:"#FFF !important",borderRadius:"33px","&:hover":{backgroundColor:"#33bc82"},"& span .MuiSvgIcon-root":{fontSize:{md:"36px"}},}}>1800-889-3121</Button>
                                 </Box>
                             </Box>    
                         </Grid>  

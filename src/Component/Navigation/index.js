@@ -24,13 +24,15 @@ const Navigation = () => {
         setAnchorEl(event.currentTarget);
     };
     const handleCloseDropDown = () => {
-        setAnchorEl(null)
+        setAnchorEl(null);
     }
     const handleMobileDropDown = (event) => {
         setAnchorElMobile(event.currentTarget);
     };
     const handleMobileCloseDropDown = () => {
         setAnchorElMobile(null);
+        setAnchorEl(null);
+        setAnchorElNav(null);
     }
     const renderMenu = (list,type) => {
         let menuTemplate = null;

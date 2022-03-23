@@ -2,7 +2,7 @@ import React from 'react';
 import { Box,Grid,Container,Typography,CardMedia } from "@mui/material";
 import { Fade } from "react-awesome-reveal";
 import ContactForm from "../ContactUs/ContactForm";
-import imageService from "../../Resources/Images/service_img1.jpg";
+import imageService from "../../Resources/Images/battery-waste.jpeg";
 const BatteryWaste = () => {
     return (
         <>
@@ -13,10 +13,10 @@ const BatteryWaste = () => {
                             <Box sx={{mt:5}}>
                             <Fade direction="up">
                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"30px"}}>
-                                    Battery Services
+                                    Battery Waste Services
                                 </Typography>
                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.7,color:"#0e5156"}}>
-                                    Setting up an industry-first PRO solution. 
+                                    Creating an EPR and PRO Framework for battery waste recycling. 
                                 </Typography>
                             </Fade>
                             </Box>
@@ -27,9 +27,9 @@ const BatteryWaste = () => {
             <Grid container sx={{mb:"61px"}}>
                 <Grid item xs={12}>
                     <Container fixed>
-                        <Box sx={{backgroundColor:"#33bc82",borderRadius:"12px",padding:{md:"125px 175px 138px 175px"},width:"100%",textAlign:"center"}}>
+                        <Box sx={{backgroundColor:"#33bc82",borderRadius:"12px",padding:{md:"125px 175px 138px 175px",xs:3},width:"100%",textAlign:"center"}}>
                             <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"36px"},fontFamily:"Palatino",lineHeight:1.39,color:"#FFF",mb:"38px"}}>
-                                Recycling raw materials from end-of-life<br/> electronics is the most effective solution to the<br/> growing e-waste problem. 
+                                When depleted batteries are tossed into the trash, they end up in landfills where they decay and leak. As batteries corrode, their chemicals soak into soil and contaminate groundwater and surface water 
                             </Typography>
                         </Box>    
                     </Container>
@@ -78,13 +78,13 @@ const BatteryWaste = () => {
                             </Box>
                             <Box sx={{border:"solid 0.5px #0e5156",borderRadius:"9px",width:"100%",p:2,mt:3}}>
                                 <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"18px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156"}}>
-                                    India generates close to 
+                                    World wide 
                                 </Typography>
                                 <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"48.1px"},fontFamily:"Montserrat",fontWeight:"bold",color:"#0e5156"}}>
-                                    2 million
+                                    15 billion 
                                 </Typography>
                                 <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"18px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156"}}>
-                                    tons e-waste p.a 
+                                    primary batteries are thrown away every year 
                                 </Typography>
                             </Box>
                         </Grid>

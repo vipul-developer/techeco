@@ -2,7 +2,7 @@ import React from 'react';
 import { Box,Grid,Container,Typography,CardMedia } from "@mui/material";
 import { Fade } from "react-awesome-reveal";
 import ContactForm from "../ContactUs/ContactForm";
-import imageService from "../../Resources/Images/service_img1.jpg";
+import imageService from "../../Resources/Images/ewaste.jpg";
 const EWaste = () => {
     return (
         <>
@@ -27,7 +27,7 @@ const EWaste = () => {
             <Grid container sx={{mb:"61px"}}>
                 <Grid item xs={12}>
                     <Container fixed>
-                        <Box sx={{backgroundColor:"#33bc82",borderRadius:"12px",padding:{md:"125px 175px 138px 175px"},width:"100%",textAlign:"center"}}>
+                        <Box sx={{backgroundColor:"#33bc82",borderRadius:"12px",padding:{md:"125px 175px 138px 175px",xs:3},width:"100%",textAlign:"center"}}>
                             <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"36px"},fontFamily:"Palatino",lineHeight:1.39,color:"#FFF",mb:"38px"}}>
                                 Recycling raw materials from end-of-life<br/> electronics is the most effective solution to the<br/> growing e-waste problem. 
                             </Typography>

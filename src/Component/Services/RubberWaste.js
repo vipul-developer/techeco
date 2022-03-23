@@ -2,7 +2,7 @@ import React from 'react';
 import { Box,Grid,Container,Typography,CardMedia } from "@mui/material";
 import { Fade } from "react-awesome-reveal";
 import ContactForm from "../ContactUs/ContactForm";
-import imageService from "../../Resources/Images/service_img1.jpg";
+import imageService from "../../Resources/Images/rubber-waste.png";
 const RubberWaste = () => {
     return (
         <>
@@ -13,10 +13,10 @@ const RubberWaste = () => {
                             <Box sx={{mt:5}}>
                             <Fade direction="up">
                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.21,color:"#33bc82",marginBottom:"30px"}}>
-                                    Rubber Services
+                                    Rubber Waste Services
                                 </Typography>
                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.7,color:"#0e5156"}}>
-                                    Setting up an industry-first PRO solution. 
+                                    Creating framework to Reduce Environmental Pollution. 
                                 </Typography>
                             </Fade>
                             </Box>
@@ -27,9 +27,9 @@ const RubberWaste = () => {
             <Grid container sx={{mb:"61px"}}>
                 <Grid item xs={12}>
                     <Container fixed>
-                        <Box sx={{backgroundColor:"#33bc82",borderRadius:"12px",padding:{md:"125px 175px 138px 175px"},width:"100%",textAlign:"center"}}>
+                        <Box sx={{backgroundColor:"#33bc82",borderRadius:"12px",padding:{md:"125px 175px 138px 175px",xs:3},width:"100%",textAlign:"center"}}>
                             <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"36px"},fontFamily:"Palatino",lineHeight:1.39,color:"#FFF",mb:"38px"}}>
-                                Recycling raw materials from end-of-life<br/> electronics is the most effective solution to the<br/> growing e-waste problem. 
+                                As an extension to creating more space in landfills, recycling rubber products also helps reduce pollution.  
                             </Typography>
                         </Box>    
                     </Container>
@@ -76,13 +76,13 @@ const RubberWaste = () => {
                             </Box>
                             <Box sx={{border:"solid 0.5px #0e5156",borderRadius:"9px",width:"100%",p:2,mt:3}}>
                                 <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"18px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156"}}>
-                                    India generates close to 
+                                    Worldwide approx 
                                 </Typography>
                                 <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"48.1px"},fontFamily:"Montserrat",fontWeight:"bold",color:"#0e5156"}}>
-                                    2 million
+                                    279 million
                                 </Typography>
                                 <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"18px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156"}}>
-                                    tons e-waste p.a 
+                                    tires get discarded each year.
                                 </Typography>
                             </Box>
                         </Grid>
