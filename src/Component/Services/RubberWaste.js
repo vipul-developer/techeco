@@ -42,7 +42,7 @@ const RubberWaste = () => {
                             <Box sx={{width:"100%",backgroundColor:"#effaf5",borderRadius:"12px",border:"0.5px solid #effaf5",p:5}}>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        We can mention- Worldwide information- 
+                                        Worldwide information
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
                                         Every year, over one billion tyres are manufactured worldwide, and an equal number of tyres are permanently removed from vehicles, becoming waste.<br/>
@@ -53,7 +53,7 @@ const RubberWaste = () => {
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Or For India-  
+                                        For India  
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
                                         India’s waste tyres account for about 6-7% of the global total. With the local tyre industry growing at 12% per annum, waste volumes are rising.<br/>

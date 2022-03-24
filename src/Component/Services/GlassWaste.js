@@ -57,6 +57,47 @@ const GlassWaste = () => {
                                         EPA used statistics from the Glass Packaging Institute’s numbers on glass container shipment to estimate glass container generation. In 2018, glass generation in all products was 3 million tons in India. 
                                     </Typography>
                                 </Box>
+                                <Box sx={{mb:3}}>
+                                    {/* <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
+                                        Glass Waste 
+                                    </Typography> */}
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        Glass can be melted down and made into many different forms from drinking glasses to glass fiber. When the glass is taken to a manufacturing or recycling plant, it is broken up into smaller pieces called cullet.
+                                    </Typography>
+                                </Box>
+                                <Box sx={{mb:3}}>
+                                    {/* <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
+                                        Glass Waste 
+                                    </Typography> */}
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        The broken pieces are crushed, sorted, cleaned, and prepared to be mixed with other raw materials like soda ash and sand. The raw materials and glass pieces are melted in a furnace and then shaped into moulds to make new bottles of different colours and sizes. New recycled bottles and jars are made in this way.
+                                    </Typography>
+                                </Box>
+                                <Box sx={{mb:3}}>
+                                    {/* <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
+                                        Glass Waste 
+                                    </Typography> */}
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        In countries like USA, there are kerbside recycling schemes, which have specially demarcated boxes to collect glass that can be recycled. Some supermarkets, car parks and other public areas have glass bottle banks, where you can take your recyclable jars and bottles
+                                    </Typography>
+                                </Box>
+                                <Box sx={{mb:3}}>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
+                                        Advantages 
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        The cost savings of recycling is in the use of energy. Compared to making glass from raw materials for the first time, cullet melts at a lower temperature. So we can save on energy needed to melt the glass.
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        Glass produced from recycled glass reduces related air pollution by 20% and related water pollution by 50%.
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        Recycling glass reduces the space in landfills that would otherwise be taken up by used bottles and jars.
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        Using glass for recycling means there are less glass objects lying around in he landfill or bin.
+                                    </Typography>
+                                </Box>
                             </Box>
                         </Grid>
                         <Grid item xl={3} lg={3} md={3} sm={3} xs={12}>

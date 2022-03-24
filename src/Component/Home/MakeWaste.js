@@ -53,7 +53,7 @@ const MakeWaste = () => {
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12} sx={{mt:{xs:2},mb:{xs:5}}}>
                             <Box sx={{margin:{lg:"103px 0 355px 107.2px"},}}>
                                 <Typography variant="body" component="p" gutterBottom paragraph sx={{fontSize:{md:"16px"},lineHeight:{md:1.88},letterSpacing:"normal",fontFamily:"Montserrat",fontWeight:"normal"}}>
-                                    The “Zero Waste living” motto takes centre stage @Techeco. At its most basic level, the goal of zero waste living is to push economies towards the target of sending no waste to landfill, incinerators, and the ocean. The “Reduce, Reuse &amp; Recycle” approach to production and consumption, encourages a more circular approach to the way we use resources and is the first step towards Zero Waste living.
+                                    The “Zero Waste living” motto takes centre stage at Techeco. At its most basic level, the goal of zero waste living is to push economies towards the target of sending no waste to landfill, incinerators, and the ocean. The “Reduce, Reuse &amp; Recycle” approach to production and consumption, encourages a more circular approach to the way we use resources and is the first step towards Zero Waste living.
                                 </Typography>
                             </Box>
                         </Grid>

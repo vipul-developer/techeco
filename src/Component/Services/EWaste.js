@@ -16,7 +16,7 @@ const EWaste = () => {
                                     E-Waste Services
                                 </Typography>
                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"20px"},fontWeight:500,fontFamily:"Montserrat",lineHeight:1.7,color:"#0e5156"}}>
-                                    Setting up an industry-first PRO solution. 
+                                    Setting up an industry solution. 
                                 </Typography>
                             </Fade>
                             </Box>
