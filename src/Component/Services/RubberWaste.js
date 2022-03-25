@@ -46,9 +46,13 @@ const RubberWaste = () => {
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
                                         Every year, over one billion tyres are manufactured worldwide, and an equal number of tyres are permanently removed from vehicles, becoming waste.<br/>
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
                                         The U.S. is the largest producer of waste tyres, about 290 million a year, although increases in new vehicles sales in China and India are rapidly contributing to waste tyre volumes.<br/>
-                                        Although modern tyres are fundamentally rubber products, they are a complex mix of natural and synthetic rubbers, and various structural reinforcing elements including metals and chemical additives.<br/>
-                                        This complexity has led to stockpiling, dumping and diversion to landfill. This has exposed communities to environmental and health risks and has squandered valuable resources locked up in tyre dumps.<br/>
+                                        Although modern tyres are fundamentally rubber products, they are a complex mix of natural and synthetic rubbers, and various structural reinforcing elements including metals and chemical additives.
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        This complexity has led to stockpiling, dumping and diversion to landfill. This has exposed communities to environmental and health risks and has squandered valuable resources locked up in tyre dumps.
                                     </Typography>
                                 </Box>
                                 <Box sx={{mb:3}}>
@@ -56,10 +60,16 @@ const RubberWaste = () => {
                                         For India  
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
-                                        India’s waste tyres account for about 6-7% of the global total. With the local tyre industry growing at 12% per annum, waste volumes are rising.<br/>
-                                        India has been recycling and reusing waste tyres for four decades, although it is estimated that 60% are disposed of through illegal dumping.<br/>
-                                        Despite this, India is the second largest producer of reclaimed rubber after China. In 2011, India produced 90,000 metric tonnes of reclaimed rubber from waste tyres.<br/>
-                                        By 2016, some 100,000 kms of Indian roads had been laid with asphalt blended with recycled rubber, and over 500 000 tonnes of crumb rubber modified bitumen (CRMB) is used annually in road construction. New regulations introduced in 2016 allow for import of waste tyres for recycling.<br/>
+                                        India’s waste tyres account for about 6-7% of the global total. With the local tyre industry growing at 12% per annum, waste volumes are rising.
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        India has been recycling and reusing waste tyres for four decades, although it is estimated that 60% are disposed of through illegal dumping.
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        Despite this, India is the second largest producer of reclaimed rubber after China. In 2011, India produced 90,000 metric tonnes of reclaimed rubber from waste tyres.
+                                    </Typography>
+                                    <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
+                                        By 2016, some 100,000 kms of Indian roads had been laid with asphalt blended with recycled rubber, and over 500 000 tonnes of crumb rubber modified bitumen (CRMB) is used annually in road construction. New regulations introduced in 2016 allow for import of waste tyres for recycling.
                                     </Typography>
                                 </Box>
                             </Box>

@@ -18,7 +18,7 @@ const OurService = () => {
                             <Box sx={{marginBottom:"33px"}}>
                                 <Box sx={{textAlign:"center"}}>
                                     <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"20px"},lineHeight:0.7,fontFamily:"Montserrat",color:"#000",pb:2}}>Our services</Typography>
-                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,lineHeight:1.17,color:"#33bc82",fontFamily:"Montserrat",pb:2}}>Your organisation can <br/>make a difference</Typography>
+                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,lineHeight:1.17,color:"#33bc82",fontFamily:"Montserrat",pb:2}}>Together we can make<br/> a difference</Typography>
                                 </Box>
                             </Box>
                         </Container>

@@ -195,12 +195,13 @@ class EPR extends Component {
                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"36px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.25,color:"#0e5156",mb:2,mt:3}}>
                                     Process Flow 
                                 </Typography>
-                                <CardMedia
+                                {/* <CardMedia
                                     component="img"
                                     alt="Process Flow"
                                     height="509"
                                     image={processFlow}
-                                />
+                                /> */}
+                                <img src={processFlow} className="img-fluid" alt="Process Flow"/>
                             </Box>    
                         </Container>    
                     </Grid>    

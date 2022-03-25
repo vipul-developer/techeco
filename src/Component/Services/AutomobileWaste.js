@@ -74,7 +74,7 @@ const AutomobileWaste = () => {
                                 </Box>
                                 <Box sx={{mb:3}}>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"20px"},fontFamily:"Montserrat",color:"#000",fontWeight:600,mb:2}}>
-                                        Safe and Environmentally demolition   
+                                        Safe and environment friendly demolition   
                                     </Typography>
                                     <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,color:"#0e5156"}}>
                                         We assure environmentally sound management of ELVs. 
@@ -94,7 +94,7 @@ const AutomobileWaste = () => {
                             </Box>
                             <Box sx={{border:"solid 0.5px #0e5156",borderRadius:"9px",width:"100%",p:2,mt:3}}>
                                 <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:"18px",fontFamily:"Montserrat",fontWeight:500,color:"#0e5156"}}>
-                                    Everyyear 
+                                    Every year 
                                 </Typography>
                                 <Typography variant="body1" component="div" paragraph gutterBottom sx={{fontSize:{md:"48.1px"},fontFamily:"Montserrat",fontWeight:"bold",color:"#0e5156"}}>
                                     25 million

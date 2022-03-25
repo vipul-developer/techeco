@@ -6,6 +6,7 @@ import am from "../../Resources/Images/am.png";
 import mp from "../../Resources/Images/mp.png";
 import ri from "../../Resources/Images/ri.png";
 import sl from "../../Resources/Images/sl.png";
+import bb from "../../Resources/Images/bb.jpeg";
 const Collaborative = () => {
     const setting = {
         dots:true,
@@ -51,8 +52,8 @@ const Collaborative = () => {
                 <Grid item xs={12} sx={{overflow:"hidden",pb:5}}>
                     <Container fixed>
                         <Box sx={{textAlign:"center",margin:"35px 0px"}}>
-                            <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"30px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:600,color:"#33bc82"}}>Change is collaborative. hear from our collective</Typography>
-                            <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"24px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:500,color:"#0e5156"}}>join pioneers who are leading the movement</Typography>
+                            <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"30px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:600,color:"#33bc82"}}>Hear from our motivators</Typography>
+                            <Typography variant='body1' component="div" gutterBottom sx={{fontSize:{md:"24px"},fontFamily:"Montserrat",lineHeight:1.25,fontWeight:500,color:"#0e5156"}}>Consciously, we are moving towards a zero waste lifestyle</Typography>
                         </Box>
                         <Slider {...setting}>
                             <Box sx={{p:{md:3,xs:1},}}>
@@ -130,6 +131,22 @@ const Collaborative = () => {
                                             <img alt="img" src={sl} height="70px"/>
                                             <Box sx={{mt:2,ml:2}}>
                                                 <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.88,fontWeight:500,flexGrow:0,color:"#000"}}>Suraj Londhe<br/></Typography>
+                                            </Box>
+                                        </Box>
+                                    </Box>
+                                </Box>
+                            </Box>
+                            <Box sx={{p:{md:3,xs:1},}}>
+                                <Box sx={{boxShadow:"none",border:"1px solid rgba(0, 0, 0, 0.2)",borderRadius:"12px"}}>
+                                    <Box sx={{display:"flex",minHeight:"12.2px",backgroundColor:"#33bc82",position:"relative",top:0,borderRadius:"6px 6px 0 0"}}/>
+                                    <Box sx={{mt:1,mb:1,padding:{md:"22px 29.5px 17.3px 53.9px",xs:"20px"}}}>
+                                        <Typography variant="body1" component="div" gutterBottom paragraph sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.63,flexGrow:0,color:"#0e5156"}}>
+                                            The represetative of Techeco Waste Management and recycler provide information and technical details on priority with in time line. Good communication without any gap.Good knowledge regarding technicals parameters. Overall excellent service for lifting of E waste.
+                                        </Typography>
+                                        <Box sx={{display:"flex",pt:{lg:3}}}>
+                                            <img alt="img" src={bb} height="70px"/>
+                                            <Box sx={{mt:1,ml:2}}>
+                                                <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"16px",fontFamily:"Montserrat",lineHeight:1.88,fontWeight:500,flexGrow:0,color:"#000"}}>Bhagwan Bhange<br/>Megafine Pharma pvt. Ltd</Typography>
                                             </Box>
                                         </Box>
                                     </Box>

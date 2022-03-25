@@ -12,8 +12,8 @@ const MakeWaste = () => {
                         <Container fixed>
                             <Box sx={{marginBottom:"33px"}}>
                                 <Box sx={{textAlign:"center",margin:"0 0 103px 0"}}>
-                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"20px"},lineHeight:0.7,margin:"77px 0 26px 0",fontFamily:"Montserrat",color:"#000"}}>Take-make-waste is obsolete</Typography>
-                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,lineHeight:0.94,margin:"0 0 21px 0",color:"#33bc82",fontFamily:"Montserrat"}}>Rethink your legacy</Typography>
+                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"20px"},lineHeight:0.7,margin:"77px 0 26px 0",fontFamily:"Montserrat",color:"#000"}}>Reduce, Reuse &amp; Recycle</Typography>
+                                    <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"48px"},fontWeight:600,lineHeight:0.94,margin:"0 0 21px 0",color:"#33bc82",fontFamily:"Montserrat"}}>Make the world a better place</Typography>
                                     <Typography variant="body" component="p" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:500,lineHeight:1.42,fontFamily:"Montserrat",color:"#000"}}>Techeco Waste Management LLP provides comprehensive <br/> complete and responsible recycling service.</Typography>
                                 </Box>
                             </Box>
@@ -21,8 +21,8 @@ const MakeWaste = () => {
                     </Grid>
                 </Fade>
                 <Container fixed>
-                    <Grid container item xl={12} lg={12} md={12} sm={12} xs={12}>
-                        <Grid item xl={3} lg={3} md={3} sm={3} xs={12}>
+                    <Grid container item xl={12} lg={12} md={12} sm={12} xs={12} spacing={2}>
+                        <Grid item xl={3} lg={3} md={3} sm={6} xs={12}>
                             <Card sx={{minWidth:{lg:"328.5px",md:"240px",xs:"200px"},borderRadius:"12px",mb:{xs:2},boxShadow:"none"}}>
                                 <CardMedia
                                     component="img"
@@ -32,7 +32,7 @@ const MakeWaste = () => {
                                 />
                             </Card>
                         </Grid>
-                        <Grid item xl={3} lg={3} md={3} sm={3} xs={12}>
+                        <Grid item xl={3} lg={3} md={3} sm={6} xs={12}>
                             <Card sx={{minWidth:{lg:"328.5px",md:"240px",xs:"200px"},background:" linear-gradient(90deg, rgba(14,81,86,1) 0%, rgba(51,188,130,1) 50%)",margin:{md:"0 0 0 50px",xs:"0 0 15px 0"},borderRadius:"12px",boxShadow:"none"}}>
                                 <CardContent sx={{p:0}}>
                                     <Box sx={{padding:"38.3px 30.1px 30.8px 30.8px",color:"#FFF"}}>
@@ -50,7 +50,7 @@ const MakeWaste = () => {
                                 </CardContent>
                             </Card>
                         </Grid>
-                        <Grid item xl={6} lg={6} md={6} sm={6} xs={12} sx={{mt:{xs:2},mb:{xs:5}}}>
+                        <Grid item xl={6} lg={6} md={6} sm={12} xs={12} sx={{mt:{xs:2},mb:{xs:5}}}>
                             <Box sx={{margin:{lg:"103px 0 355px 107.2px"},}}>
                                 <Typography variant="body" component="p" gutterBottom paragraph sx={{fontSize:{md:"16px"},lineHeight:{md:1.88},letterSpacing:"normal",fontFamily:"Montserrat",fontWeight:"normal"}}>
                                     The “Zero Waste living” motto takes centre stage at Techeco. At its most basic level, the goal of zero waste living is to push economies towards the target of sending no waste to landfill, incinerators, and the ocean. The “Reduce, Reuse &amp; Recycle” approach to production and consumption, encourages a more circular approach to the way we use resources and is the first step towards Zero Waste living.

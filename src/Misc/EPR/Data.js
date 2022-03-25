@@ -1,3 +1,6 @@
+
+import sops from "../../Resources/SoPs.pdf";
+import notice from "../../Resources/notice_for_producers.pdf"; 
 export const collectioncolumns = [
     {field:'id',headerName:'SR',width:90 },
     {field:'state',headerName:'State',width:100,editable: false},
@@ -40,8 +43,8 @@ export const logisticcolumns = [
 ];
 export const logisticPartner = [
     {"id":"01","name":"Aero Express Cargo & Logistic","address":"Mumbai","contact":"Shubham Shukla"},
-    {"id":"02","name":"Shree Ganesh Road Carriers","address":"","contact":""},
-    {"id":"03","name":"Shree Balaji Transport Co","address":"","contact":""}
+    {"id":"02","name":"Shree Ganesh Road Carriers","address":"Nashik","contact":"Sharad Borse"},
+    {"id":"03","name":"Shree Balaji Transport Co","address":"Ghaziabad","contact":"Suresh Kumar"}
 ];
 export const cpcbcolumns = [
     {field:'id',headerName:'SR',width:90 },
@@ -49,7 +52,7 @@ export const cpcbcolumns = [
     {field:'action',headerName:'Action',width:110,editable: false},
 ];
 export const cpcbPartner = [
-    {"id":"01","name":"SOP","action":"Download"},
-    {"id":"02","name":"Notice to All Producers of Electrical and Electronic Equipment (EEE) under E- Waste (Management) Rules, 2016","action":"Download"},
+    {"id":"01","name":"SOP","action":"Download","file":sops},
+    {"id":"02","name":"Notice to All Producers of Electrical and Electronic Equipment (EEE) under E- Waste (Management) Rules, 2016","action":"Download","file":notice},
 ]
 

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Box,Grid,Container,Tabs,Tab,Typography,Button } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
 import FormFileds from "../../Util/Form/FormFileds";
-import { update,generateData,isFormValid } from "../../Util/Form/FormAction";
+import { update,generateData,isFormValid,populateOptionFields } from "../../Util/Form/FormAction";
 import { collectioncolumns,collectionCenter } from "../../Misc/EPR/Data";
 import RecyclingPartner from "./RecyclingPartner";
 import LogisticPartner from "./LogisticPartner";
@@ -138,6 +138,7 @@ class TabsComponent extends Component {
     }
     updateForm = (element) => {
         const newFormData = update(element,this.state.formdata,"EPR");
+        
         this.setState({
             formError: false,
             formdata: newFormData
