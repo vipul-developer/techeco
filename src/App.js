@@ -21,16 +21,16 @@ const App = () => {
     <Layout>
       <Switch>
           <Route path={"/"} exact component={Home}/>
-          <Route path={"/techeco/about_us"} exact component={AboutUs}/>
-          <Route path={"/tecteco/contacts"} exact component={ContactUs}/>
-          <Route path={"/tecteco/epr_for_e-waste"} exact component={EPR}/>
-          <Route path={"/tecteco/initiatives"} exact component={Initiatives}/>
-          <Route path={"/techeco/services/e_waste"} exact component={EWaste}/>
-          <Route path={"/techeco/services/battery_waste"} exact component={BatteryWaste}/>
-          <Route path={"/techeco/services/plastic_waste"} exact component={PlasticWaste}/>
-          <Route path={"/techeco/services/automobile_waste"} exact component={AutomobileWaste}/>
-          <Route path={"/techeco/services/glass_waste"} exact component={GlassWaste}/>
-          <Route path={"/techeco/services/rubber_waste"} exact component={RubberWaste}/>
+          <Route path={"/about_us"} exact component={AboutUs}/>
+          <Route path={"/contacts"} exact component={ContactUs}/>
+          <Route path={"/epr_for_e-waste"} exact component={EPR}/>
+          <Route path={"/initiatives"} exact component={Initiatives}/>
+          <Route path={"/services/e_waste"} exact component={EWaste}/>
+          <Route path={"/services/battery_waste"} exact component={BatteryWaste}/>
+          <Route path={"/services/plastic_waste"} exact component={PlasticWaste}/>
+          <Route path={"/services/automobile_waste"} exact component={AutomobileWaste}/>
+          <Route path={"/services/glass_waste"} exact component={GlassWaste}/>
+          <Route path={"/services/rubber_waste"} exact component={RubberWaste}/>
       </Switch>
     </Layout>
   );
