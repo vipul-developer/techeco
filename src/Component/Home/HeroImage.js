@@ -1,5 +1,4 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import { Box,Grid,CardMedia } from "@mui/material";
 import VideoClip from "../../Resources/Video/With Text.mp4";
 const HeroImage = () => {
@@ -44,4 +43,4 @@ const HeroImage = () => {
     );
 };
 
-export default withRouter(HeroImage);
+export default HeroImage;

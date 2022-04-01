@@ -39,7 +39,7 @@ const ContactUs = () => {
                                     </Typography>
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
                                         2A 2nd Floor Building No.11/12, Raghuvanshi Mill Compound,
-                                        SB Road, Lower Parel (W), Mumbai-400013
+                                        Senapati Bapat Marg, Lower Parel (W), Mumbai-400013
                                     </Typography>
                                     <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"16px",fontWeight:"bold",fontFamily:"Montserrat",lineHeight:2.14,color:"#0e5156"}}>
                                         Factory

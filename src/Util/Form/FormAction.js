@@ -56,9 +56,8 @@ export const populateOptionFields = (formdata,arrayData=[],field) => {
     const newArray = [];
     const newFormData = { ...formdata};
     arrayData.forEach(item => {
-        newArray.push({key:item._id,value:item.name})
+        newArray.push({key:item.key,value:item.value})
     })
     newFormData[field].config.options = newArray;
     return newFormData;
 }
-

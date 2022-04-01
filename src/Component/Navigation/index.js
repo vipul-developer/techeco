@@ -1,5 +1,5 @@
 import React,{ useState } from 'react';
-import { withRouter,NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import { menuList } from '../../Misc/MenuList';
 import { Box,Grid,AppBar,Toolbar,IconButton,Typography,Menu,MenuItem,Container,Button,useMediaQuery } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
@@ -42,7 +42,7 @@ const Navigation = () => {
                     if(item.linkTo){
                         if(item.public && item.isActive){
                             return(
-                                <NavLink key={item.id} exact to={item.linkTo} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000"}} activeStyle={{color:"#33bc82"}}>
+                                <NavLink key={item.id} to={item.linkTo} style={({ isActive }) => ({fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color: isActive ? "#33bc82":"#000"})}>
                                     <Button onClick={handleCloseNavMenu}  variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"inherit",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},mr:{lg:2}}}>
                                         {item.name}
                                     </Button>
@@ -71,7 +71,7 @@ const Navigation = () => {
                                     >
                                         {
                                             item.subMenu.map((submenu,index) => (
-                                                <NavLink key={submenu.id} exact to={submenu.linkTo} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000"}} activeStyle={{color:"#33bc82"}}>
+                                                <NavLink key={submenu.id} to={submenu.linkTo} style={({ isActive }) => ({fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color: isActive ? "#33bc82":"#000"})} >
                                                     <MenuItem onClick={handleCloseDropDown} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"}}}>{submenu.name}</MenuItem>
                                                 </NavLink>
                                             ))
@@ -94,7 +94,7 @@ const Navigation = () => {
                     if(item.linkTo){
                         if(item.public && item.isActive){
                             return(
-                                <NavLink key={item.id} exact to={item.linkTo} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000"}} activeStyle={{color:"#33bc82"}}>
+                                <NavLink key={item.id} to={item.linkTo} style={({ isActive }) => ({fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color: isActive ? "#33bc82":"#000"})} >
                                     <MenuItem onClick={handleCloseNavMenu}  variant="text" sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"inherit",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},"&:focus":{backgroundColor:"transparent"},mr:{lg:2}}}>
                                         {item.name}
                                     </MenuItem>
@@ -123,7 +123,7 @@ const Navigation = () => {
                                     >
                                         {
                                             item.subMenu.map((submenu,index) => (
-                                                <NavLink key={submenu.id} exact to={submenu.linkTo} style={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000"}} activeStyle={{color:"#33bc82"}}>
+                                                <NavLink key={submenu.id} to={submenu.linkTo} style={({ isActive }) => ({fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color: isActive ? "#33bc82":"#000"})} >
                                                     <MenuItem onClick={handleMobileCloseDropDown} sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#000",textTransform:"capitalize","&:hover":{backgroundColor:"transparent",color:"#33bc82"},"&:focus":{backgroundColor:"transparent"}}}>{submenu.name}</MenuItem>
                                                 </NavLink>
                                             ))
@@ -154,7 +154,7 @@ const Navigation = () => {
                     <Grid item xs={12}>
                         <Container fixed sx={{pt:{md:2}}}>
                             <Toolbar disableGutters>
-                                <NavLink exact to={"/"} style={{flexGrow:1}}>
+                                <NavLink to={"/"} style={{flexGrow:1}}>
                                     <Typography
                                         variant="h6"
                                         noWrap
@@ -201,4 +201,4 @@ const Navigation = () => {
     );
 };
 
-export default withRouter(Navigation);
+export default Navigation;

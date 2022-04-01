@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter,Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Box,Typography,Container,Grid,Card,CardHeader } from "@mui/material";
 import eWaste from "../../Resources/Images/ewaste.svg";
 import batteryWaste from "../../Resources/Images/battery-waste.svg";
@@ -135,4 +135,4 @@ const OurService = () => {
     );
 };
 
-export default (withRouter(OurService));
+export default OurService;

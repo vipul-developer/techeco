@@ -1,5 +1,5 @@
 import React,{ useLayoutEffect } from 'react';
-import { Switch,Route,useLocation  } from 'react-router-dom';
+import { Routes,Route,useLocation  } from 'react-router-dom';
 import Layout from "./Layout";
 import Home from "./Component/Home";
 import AboutUs from "./Component/AboutUs";
@@ -19,19 +19,19 @@ const App = () => {
   },[location.pathname])
   return (
     <Layout>
-      <Switch>
-          <Route path={"/"} exact component={Home}/>
-          <Route path={"/about_us"} exact component={AboutUs}/>
-          <Route path={"/contacts"} exact component={ContactUs}/>
-          <Route path={"/epr_for_e-waste"} exact component={EPR}/>
-          <Route path={"/initiatives"} exact component={Initiatives}/>
-          <Route path={"/services/e_waste"} exact component={EWaste}/>
-          <Route path={"/services/battery_waste"} exact component={BatteryWaste}/>
-          <Route path={"/services/plastic_waste"} exact component={PlasticWaste}/>
-          <Route path={"/services/automobile_waste"} exact component={AutomobileWaste}/>
-          <Route path={"/services/glass_waste"} exact component={GlassWaste}/>
-          <Route path={"/services/rubber_waste"} exact component={RubberWaste}/>
-      </Switch>
+      <Routes>
+          <Route path={"/"} element={<Home/>}/>
+          <Route path={"/about_us"} element={<AboutUs/>}/>
+          <Route path={"/contacts"} element={<ContactUs/>}/>
+          <Route path={"/epr_for_e-waste"} element={<EPR/>}/>
+          <Route path={"/initiatives"} element={<Initiatives/>}/>
+          <Route path={"/services/e_waste"} element={<EWaste/>}/>
+          <Route path={"/services/battery_waste"} element={<BatteryWaste/>}/>
+          <Route path={"/services/plastic_waste"} element={<PlasticWaste/>}/>
+          <Route path={"/services/automobile_waste"} element={<AutomobileWaste/>}/>
+          <Route path={"/services/glass_waste"} element={<GlassWaste/>}/>
+          <Route path={"/services/rubber_waste"} element={<RubberWaste/>}/>
+      </Routes>
     </Layout>
   );
 };

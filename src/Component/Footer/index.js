@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter,NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Box,Grid,Container,Toolbar,Typography,List,ListItem,ListItemButton,ListItemText,Button  } from "@mui/material";
 import Logo from "../../Resources/Images/techeco-white.svg";
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -10,7 +10,7 @@ const Footer = () => {
                 <Grid item xs={12} sx={{mb:3}}>
                     <Container fixed>
                         <Toolbar disableGutters>
-                            <NavLink exact to={"/"} style={{flexGrow:1}}>
+                            <Link to={"/"} style={{flexGrow:1}}>
                                 <Typography
                                     variant="h6"
                                     noWrap
@@ -20,7 +20,7 @@ const Footer = () => {
                                 >
                                     <img src={Logo} alt="Logo" className="img-fluid"/>
                                 </Typography>
-                            </NavLink>
+                            </Link>
                         </Toolbar>
                     </Container>
                 </Grid>
@@ -40,40 +40,40 @@ const Footer = () => {
                                 <Box sx={{margin:{md:"34px 0 0 75px"},width:"100%"}}>
                                     <List>
                                         <ListItem disablePadding>
-                                            <NavLink exact to={"/techeco/about_us"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
+                                            <Link to={"/about_us"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
                                                 <ListItemButton sx={{"&:hover":{backgroundColor:"transparent"},"&:foces":{backgroundColor:"transparent"}}}>
                                                     <ListItemText primary="About Us" />
                                                 </ListItemButton>
-                                            </NavLink>
+                                            </Link>
                                         </ListItem>
                                         <ListItem disablePadding>
-                                            <NavLink exact to={"/tecteco/services"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
+                                            <Link to={"/services"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
                                                 <ListItemButton sx={{"&:hover":{backgroundColor:"transparent"},"&:foces":{backgroundColor:"transparent"}}}>
                                                     <ListItemText primary="Services" />
                                                 </ListItemButton>
-                                            </NavLink>
+                                            </Link>
                                         </ListItem>
                                         <ListItem disablePadding>
-                                            <NavLink exact to={"/tecteco/initiatives"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
+                                            <Link to={"/initiatives"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
                                                 <ListItemButton sx={{"&:hover":{backgroundColor:"transparent"},"&:foces":{backgroundColor:"transparent"}}}>
                                                     <ListItemText primary="Initiatives" />
                                                 </ListItemButton>
-                                            </NavLink>
+                                            </Link>
                                         </ListItem>
                                         <ListItem disablePadding>
-                                            <NavLink exact to={"/tecteco/epr_for_e-waste"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
+                                            <Link to={"/epr_for_e-waste"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
                                                 <ListItemButton sx={{"&:hover":{backgroundColor:"transparent"},"&:foces":{backgroundColor:"transparent"}}}>
                                                     <ListItemText primary="EPR" />
                                                 </ListItemButton>
-                                            </NavLink>
+                                            </Link>
                                         </ListItem>
                                        
                                         <ListItem disablePadding>
-                                            <NavLink exact to={"/tecteco/contacts"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
+                                            <Link to={"/contacts"} style={{fontSize:"14px",fontFamily:"Montserrat",lineHeight:2.75,color:"#FFF",fontWeight:500,}}>
                                                 <ListItemButton sx={{"&:hover":{backgroundColor:"transparent"},"&:foces":{backgroundColor:"transparent"}}}>
                                                     <ListItemText primary="Contact Us" />
                                                 </ListItemButton>
-                                            </NavLink>
+                                            </Link>
                                         </ListItem>
                                     </List>
                                 </Box>
@@ -93,4 +93,4 @@ const Footer = () => {
     );
 };
 
-export default (withRouter(Footer));
+export default Footer;

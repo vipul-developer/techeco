@@ -2,7 +2,7 @@
   "name": "techeco",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://techeco.co.in",
+  "homepage": "https://techeco.co.in",
   "dependencies": {
     "-": "^0.0.1",
     "@emotion/react": "^11.8.1",
@@ -20,7 +20,7 @@
     "react-dom": "^17.0.2",
     "react-google-maps": "^9.4.5",
     "react-image-lightbox": "^5.1.4",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.2.2",
     "react-scripts": "5.0.0",
     "react-slick": "^0.28.1",
     "react-tinder-card": "^1.4.5",
@@ -54,6 +54,9 @@
     ]
   },
   "devDependencies": {
-    "@types/react-slick": "^0.23.8"
+    "@types/react-slick": "^0.23.8",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
   }
 }

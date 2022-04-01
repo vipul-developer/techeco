@@ -1,5 +1,4 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import { Box,Typography,Container,Grid,Button,CardMedia } from "@mui/material";
 import VideoClip from "../../Resources/Video/Process-with Text.mp4";
 import PhoneIcon from '@mui/icons-material/Phone';
@@ -51,4 +50,4 @@ const SimpleProcess = () => {
     );
 };
 
-export default (withRouter(SimpleProcess));
+export default SimpleProcess;

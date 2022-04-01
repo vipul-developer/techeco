@@ -1,5 +1,4 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import { Box,Typography,Container,Grid,Card,CardMedia,CardContent } from "@mui/material";
 import JohnCameron from "../../Resources/Images/john-cameron.jpg";
 import { Fade } from "react-awesome-reveal";
@@ -65,4 +64,4 @@ const MakeWaste = () => {
     );
 };
 
-export default (withRouter(MakeWaste));
+export default MakeWaste;

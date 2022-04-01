@@ -1,5 +1,4 @@
 import React from 'react';
-import { withRouter } from 'react-router-dom';
 import HeroImage from "./HeroImage";
 import MakeWaste from './MakeWaste';
 import OurService from "./OurService";
@@ -21,4 +20,4 @@ const Home = () => {
     );
 };
 
-export default (withRouter(Home));
+export default Home;

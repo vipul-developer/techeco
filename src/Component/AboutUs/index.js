@@ -1,5 +1,5 @@
 import React from 'react';
-import { withRouter,Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { Box,Grid,Container,Typography,CardMedia } from "@mui/material";
 import Slider from "react-slick";
 import { Fade } from "react-awesome-reveal";
@@ -266,4 +266,4 @@ const AboutUs = () => {
     );
 };
 
-export default (withRouter(AboutUs));
+export default AboutUs;
