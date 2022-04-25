@@ -229,12 +229,12 @@ const Initiatives = () => {
                                     <CardContent>
                                         <Box>
                                             <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.3,color:"#0e5156"}}>
-                                                Pune Exibition 
+                                                Pune Alternate  Fuel Conclave India's biggest EV Exhibition.
                                             </Typography>
                                         </Box>
                                         <Box sx={{mt:3,minHeight:105}}>
                                             <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.79,color:"#0e5156"}}>
-                                            Pune Exibition Detailed Industrial site visit of Techeco Waste Management LLP was done and students were  educated about e waste recycling under guidance of Plant Director Bhushan Kapase. 
+                                                Techeco  participated at Maharashtra polution control board stall, where we were promoting and showing sustainable ways of ewatse recycling more efficiently. 
                                             </Typography>
                                         </Box>
                                         <Box sx={{mt:2}}>
