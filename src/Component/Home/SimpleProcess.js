@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box,Typography,Container,Grid,Button,CardMedia } from "@mui/material";
-import VideoClip from "../../Resources/Video/Process-with Text.mp4";
+// import VideoClip from "../../Resources/Video/Process-with Text.mp4";
 import PhoneIcon from '@mui/icons-material/Phone';
 import { Fade } from "react-awesome-reveal";
 const SimpleProcess = () => {
@@ -25,14 +25,15 @@ const SimpleProcess = () => {
                     <Container fixed>
                         <Box sx={{margin:"59.2px 0 53.1px 0",borderRadius:1,}}>
                             <CardMedia
-                                component="video"
+                                component="iframe"
+                                height={550}
                                 autoPlay
                                 loop
                                 muted
-                                preload="none"
-                                src={VideoClip}
+                                src= "https://www.youtube.com/embed/kYXmgyD6Ll0"
                                 sx={{borderRadius:"12px"}}
                             />
+                            {/* <iframe width="1180" height="664" src="https://www.youtube.com/embed/kYXmgyD6Ll0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe> */}
                         </Box>
                     </Container>
                 </Grid>

@@ -38,19 +38,46 @@ import PuneExibition5 from "../../Resources/Images/PuneExibition/PuneExibition5.
 import PuneExibition6 from "../../Resources/Images/PuneExibition/PuneExibition6.jpeg";
 import PuneExibition7 from "../../Resources/Images/PuneExibition/PuneExibition7.jpeg";
 import PuneExibition8 from "../../Resources/Images/PuneExibition/PuneExibition8.jpeg";
+import AajadiKa1 from "../../Resources/Images/AazadiMahotsav/TechecoAju1.jpeg";
+import AajadiKa2 from "../../Resources/Images/AazadiMahotsav/TechecoAju2.jpeg";
+import AajadiKa3 from "../../Resources/Images/AazadiMahotsav/TechecoAju3.jpeg";
+import AajadiKa4 from "../../Resources/Images/AazadiMahotsav/TechecoAju4.jpeg";
+import AajadiKa5 from "../../Resources/Images/AazadiMahotsav/TechecoAju5.jpeg";
+import AajadiKa7 from "../../Resources/Images/AazadiMahotsav/TechecoAju7.jpeg";
+import ceatImage1 from "../../Resources/Images/Ceat/Ceat1.jpeg";
+import ceatImage2 from "../../Resources/Images/Ceat/Ceat2.jpeg";
+import ceatImage3 from "../../Resources/Images/Ceat/Ceat3.jpeg";
+import SamraatImage1 from "../../Resources/Images/Samraat/Samraat1.jpeg";
+import SamraatImage2 from "../../Resources/Images/Samraat/Samraat2.jpeg";
+import SamraatImage3 from "../../Resources/Images/Samraat/Samraat3.jpeg";
+import SamraatImage4 from "../../Resources/Images/Samraat/Samraat4.jpeg";
+import EmbassyImage1 from "../../Resources/Images/Embassy/embassy1.jpeg";
+import EmbassyImage2 from "../../Resources/Images/Embassy/embassy2.jpeg";
+import EmbassyImage3 from "../../Resources/Images/Embassy/embassy3.jpeg";
+import EmbassyImage4 from "../../Resources/Images/Embassy/embassy4.jpeg";
+import EmbassyImage5 from "../../Resources/Images/Embassy/embassy5.jpeg";
+import EmbassyImage6 from "../../Resources/Images/Embassy/embassy6.jpeg";
 
 const Initiatives = () => {
     const [ college, setCollege ] = React.useState(false);
     const [ wall, setWall ] = React.useState(false);
     const [ safety, setSafety ] = React.useState(false);
     const [ mumbai, setMumbai ] = React.useState(false);
-    const [ pune, setPune ] = React.useState(false)
+    const [ pune, setPune ] = React.useState(false);
+    const [ aajadi, setAajadi ] = React.useState(false);
+    const [ ceat, setCeat ] = React.useState(false);
+    const [ samraat, setSamraat ] = React.useState(false);
+    const [ embassy, setEmbassy ] = React.useState(false);
     const [ photoIndex, setPhotoIndex ] = React.useState(0);
     const collegeImages = [collegeImage1,collegeImage2,collegeImage3,collegeImage4,collegeImage5,collegeImage6,collegeImage7];
     const wallImages = [wallImage1,wallImage2,wallImage3];
     const safetyImages = [safetyImage1,safetyImage2,safetyImage3,safetyImage4,safetyImage5,safetyImage6,safetyImage7,safetyImage8];
     const mumbaiImages = [mumbaiImage1,mumbaiImage2,mumbaiImage3,mumbaiImage4];
     const puneExibition = [PuneExibition2,PuneExibition3,PuneExibition4,PuneExibition5,PuneExibition6,PuneExibition7,PuneExibition8,PuneExibition1];
+    const aajadiKaMaha = [AajadiKa1,AajadiKa2,AajadiKa3,AajadiKa4,AajadiKa5,AajadiKa7];
+    const ceatImages = [ceatImage1,ceatImage2,ceatImage3];
+    const samraatImages = [SamraatImage1,SamraatImage2,SamraatImage3,SamraatImage4];
+    const embassyImages = [EmbassyImage1,EmbassyImage2,EmbassyImage3,EmbassyImage4,EmbassyImage5,EmbassyImage6];
     const setting = {
         dots:true,
         infinite: true,
@@ -77,6 +104,22 @@ const Initiatives = () => {
     }
     const renderPuneLight = (index) => {
         setPune(true);
+        setPhotoIndex(index);
+    }
+    const renderAajadiLight = (index) => {
+        setAajadi(true);
+        setPhotoIndex(index);
+    }
+    const renderCeatLight = (index) => {
+        setCeat(true);
+        setPhotoIndex(index);
+    }
+    const renderSamraatLight = (index) => {
+        setSamraat(true);
+        setPhotoIndex(index);
+    }
+    const renderEmbassyLight = (index) => {
+        setEmbassy(true);
         setPhotoIndex(index);
     }
     return (
@@ -244,6 +287,90 @@ const Initiatives = () => {
                                 </Card>
                             </Box>    
                         </Grid> 
+                        <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
+                            <Box>
+                                <Card sx={{padding:"31px 37px 39px 42px",boxShadow:"none",border:"solid 0.5px rgba(14, 81, 86, 0.2)",borderRadius:"12px",minHeight:365}}>
+                                    <CardContent>
+                                        <Box>
+                                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.3,color:"#0e5156"}}>
+                                                Aazadi ka Amrit Mahotsav @ Golf Club
+                                            </Typography>
+                                        </Box>
+                                        <Box sx={{mt:3,minHeight:105}}>
+                                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.79,color:"#0e5156"}}>
+                                                Team Techeco and other enthusiasts at the inauguration of the E-Waste Awareness photo booth, which is at the Golf club in Nashik. This has been curated for environment week which is from the 28th of may to the 6th of June.
+                                            </Typography>
+                                        </Box>
+                                        <Box sx={{mt:2}}>
+                                            <Button variant="outlined" sx={{border:"solid 1px #33bc82",padding:"12px 19px 11px 24px",borderRadius:"33px",fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#33bc82",textTransform:"capitalize","&:hover":{border:"solid 1px #33bc82",backgroundColor:"transparent"},}} onClick={() => renderAajadiLight(0)}>See Photos</Button>
+                                        </Box>
+                                    </CardContent>
+                                </Card>
+                            </Box>    
+                        </Grid> 
+                        <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
+                            <Box>
+                                <Card sx={{padding:"31px 37px 39px 42px",boxShadow:"none",border:"solid 0.5px rgba(14, 81, 86, 0.2)",borderRadius:"12px",minHeight:365}}>
+                                    <CardContent>
+                                        <Box>
+                                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.3,color:"#0e5156"}}>
+                                                E-waste awareness and Collection Drive @ CEAT
+                                            </Typography>
+                                        </Box>
+                                        <Box sx={{mt:3,minHeight:105}}>
+                                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.79,color:"#0e5156"}}>
+                                                Recycling takes little effort on your part, for a big difference to our world. We thank CEAT Tyres for helping us raise awareness about e-waste and e-waste recycling.
+                                            </Typography>
+                                        </Box>
+                                        <Box sx={{mt:2}}>
+                                            <Button variant="outlined" sx={{border:"solid 1px #33bc82",padding:"12px 19px 11px 24px",borderRadius:"33px",fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#33bc82",textTransform:"capitalize","&:hover":{border:"solid 1px #33bc82",backgroundColor:"transparent"},}} onClick={() => renderCeatLight(0)}>See Photos</Button>
+                                        </Box>
+                                    </CardContent>
+                                </Card>
+                            </Box>    
+                        </Grid> 
+                        <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
+                            <Box>
+                                <Card sx={{padding:"31px 37px 39px 42px",boxShadow:"none",border:"solid 0.5px rgba(14, 81, 86, 0.2)",borderRadius:"12px",minHeight:365}}>
+                                    <CardContent>
+                                        <Box>
+                                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.3,color:"#0e5156"}}>
+                                                E-waste Awareness and Collection Drive @ Samraat Societies
+                                            </Typography>
+                                        </Box>
+                                        <Box sx={{mt:3,minHeight:105}}>
+                                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.79,color:"#0e5156"}}>
+                                                We show our gratitude to Samraat Societies for featuring us and helping us to spread awareness about e-waste and e-waste recycling.
+                                            </Typography>
+                                        </Box>
+                                        <Box sx={{mt:2}}>
+                                            <Button variant="outlined" sx={{border:"solid 1px #33bc82",padding:"12px 19px 11px 24px",borderRadius:"33px",fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#33bc82",textTransform:"capitalize","&:hover":{border:"solid 1px #33bc82",backgroundColor:"transparent"},}} onClick={() => renderSamraatLight(0)}>See Photos</Button>
+                                        </Box>
+                                    </CardContent>
+                                </Card>
+                            </Box>    
+                        </Grid> 
+                        <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
+                            <Box>
+                                <Card sx={{padding:"31px 37px 39px 42px",boxShadow:"none",border:"solid 0.5px rgba(14, 81, 86, 0.2)",borderRadius:"12px",minHeight:365}}>
+                                    <CardContent>
+                                        <Box>
+                                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:{md:"24px"},fontWeight:600,fontFamily:"Montserrat",lineHeight:1.3,color:"#0e5156"}}>
+                                                E-waste awareness and Collection Drive @ Embassy RIET
+                                            </Typography>
+                                        </Box>
+                                        <Box sx={{mt:3,minHeight:105}}>
+                                            <Typography variant="body1" component="div" gutterBottom sx={{fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",lineHeight:1.79,color:"#0e5156"}}>
+                                                Together we can build a sustainable tomorrow! We thank Embassy Riet for helping us raise awareness about e-waste and e-waste recycling.
+                                            </Typography>
+                                        </Box>
+                                        <Box sx={{mt:2}}>
+                                            <Button variant="outlined" sx={{border:"solid 1px #33bc82",padding:"12px 19px 11px 24px",borderRadius:"33px",fontSize:"14px",fontWeight:500,fontFamily:"Montserrat",color:"#33bc82",textTransform:"capitalize","&:hover":{border:"solid 1px #33bc82",backgroundColor:"transparent"},}} onClick={() => renderSamraatLight(0)}>See Photos</Button>
+                                        </Box>
+                                    </CardContent>
+                                </Card>
+                            </Box>    
+                        </Grid> 
                     </Grid>    
                 </Container>    
             </Grid>
@@ -309,6 +436,58 @@ const Initiatives = () => {
                         onCloseRequest={() => setPune(false)}
                         onMovePrevRequest={() => setPhotoIndex((photoIndex + puneExibition.length - 1) % puneExibition.length)}
                         onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % puneExibition.length)}
+                       
+                    />
+                )
+            }
+            {
+                aajadi && (
+                    <Lightbox
+                        mainSrc={aajadiKaMaha[photoIndex]}
+                        nextSrc={aajadiKaMaha[(photoIndex + 1) % aajadiKaMaha.length]}
+                        prevSrc={aajadiKaMaha[(photoIndex + aajadiKaMaha.length - 1) % aajadiKaMaha.length]}
+                        onCloseRequest={() => setAajadi(false)}
+                        onMovePrevRequest={() => setPhotoIndex((photoIndex + aajadiKaMaha.length - 1) % aajadiKaMaha.length)}
+                        onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % aajadiKaMaha.length)}
+                       
+                    />
+                )
+            }
+            {
+                ceat && (
+                    <Lightbox
+                        mainSrc={ceatImages[photoIndex]}
+                        nextSrc={ceatImages[(photoIndex + 1) % ceatImages.length]}
+                        prevSrc={ceatImages[(photoIndex + ceatImages.length - 1) % ceatImages.length]}
+                        onCloseRequest={() => setCeat(false)}
+                        onMovePrevRequest={() => setPhotoIndex((photoIndex + ceatImages.length - 1) % ceatImages.length)}
+                        onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % ceatImages.length)}
+                       
+                    />
+                )
+            }
+            {
+                samraat && (
+                    <Lightbox
+                        mainSrc={samraatImages[photoIndex]}
+                        nextSrc={samraatImages[(photoIndex + 1) % samraatImages.length]}
+                        prevSrc={samraatImages[(photoIndex + samraatImages.length - 1) % samraatImages.length]}
+                        onCloseRequest={() => setSamraat(false)}
+                        onMovePrevRequest={() => setPhotoIndex((photoIndex + samraatImages.length - 1) % samraatImages.length)}
+                        onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % samraatImages.length)}
+                       
+                    />
+                )
+            }
+            {
+                embassy && (
+                    <Lightbox
+                        mainSrc={embassyImages[photoIndex]}
+                        nextSrc={embassyImages[(photoIndex + 1) % embassyImages.length]}
+                        prevSrc={embassyImages[(photoIndex + embassyImages.length - 1) % embassyImages.length]}
+                        onCloseRequest={() => setEmbassy(false)}
+                        onMovePrevRequest={() => setPhotoIndex((photoIndex + embassyImages.length - 1) % embassyImages.length)}
+                        onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % embassyImages.length)}
                        
                     />
                 )

@@ -113,7 +113,7 @@ const OurService = () => {
                         </Grid>
                         <Grid item xl={6} lg={6} md={6} sm={6} xs={12}>
                             <Link to={"/services/rubber_waste"}>
-                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,borderRadius:"12px"}}>
+                                <Card sx={{backgroundColor:"#effaf5",p:2,boxShadow:0,borderRadius:"12px",pb:2}}>
                                     <CardHeader
                                         avatar={<img alt="e-waste" src={rubberWaste}/>}
                                         title="Rubber Waste"
